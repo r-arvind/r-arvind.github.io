@@ -313,11 +313,14 @@
 			list-style: none;
 			padding-left: 0;
 			margin-top: -0.675em;
+
 		}
 
 			ul.icons li {
 				display: inline-block;
 				padding: 0.675em 0.5em;
+				transition:0.2s;
+
 			}
 
 				ul.icons li a {
@@ -327,9 +330,9 @@
 					display: block;
 					width: 3.75em;
 					height: 3.75em;
+					line-height: 3.75em;
 					border-radius: 100%;
 					border: solid 1px #5c5c5c;
-					line-height: 3.75em;
 					overflow: hidden;
 					text-align: center;
 					text-indent: 3.75em;
@@ -346,12 +349,13 @@
 					}
 
 					ul.icons li a:before {
-						color: #3a3a3a;
+						color: #444444;
 					}
 
 					ul.icons li a:hover:before {
-						background-color: #3b3b3b;
-						color:white;
+
+						background-color: #ffffff;
+						color:rgb(0, 0, 0);
 
 					}
 
@@ -367,9 +371,6 @@
 						text-indent: 0;
 					}
 
-					ul.icons li a:hover {
-						border-color: #ffffff;
-					}
 
 			@media screen and (max-width: 480px) {
 
