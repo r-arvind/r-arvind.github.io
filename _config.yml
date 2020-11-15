@@ -5,8 +5,8 @@ description: "You are at Arvind's Personal Website"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
-google_analytics: 'UA-46278016-1'
-disqus: 'demowebsite'
+# google_analytics: 'UA-46278016-1'
+# disqus: 'demowebsite'
 #mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
 include: ["_pages"]
 permalink: /:title/
@@ -20,7 +20,7 @@ authors:
     gravatar: 3b3be63a4c2a439b013787725dfce802
     email: rarvind1999@gmail.com
     web: https://r-arvind.me
-    twitter: https://twitter.com/thefried_onion
+    twitter: https://twitter.com/the_real_arvind
     description: "A small description about me. Lorem ipsum dolor el lupsum et al dicor divu sil hi linden"
   john:
     name: Arvind Ram Sankar
@@ -28,7 +28,7 @@ authors:
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: rarvind1999@gmail.com
     web: https://r-arvind.me
-    twitter: https://twitter.com/thefried_onion
+    twitter: https://twitter.com/the_real_arvind
     description: "A small description about me. Lorem ipsum dolor el lupsum et al dicor divu sil hi linden"
 # Plugins
 plugins:
@@ -61,9 +61,9 @@ kramdown:
       line_numbers: true
 
 # Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
-adsense: "disabled"
-adsense-data-ad-client: "ca-pub-3412143450191416"
-adsense-data-ad-slot: "1363087678"
+# adsense: "disabled"
+# adsense-data-ad-client: "ca-pub-3412143450191416"
+# adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
 lazyimages: "disabled"
