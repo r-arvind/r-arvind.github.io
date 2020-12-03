@@ -5,6 +5,7 @@ description: "You are at Arvind's Personal Website"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: ""
+imageurl: '/assets/images'
 # google_analytics: 'UA-46278016-1'
 # disqus: 'demowebsite'
 #mailchimp-list: 'https://wowthemes.us11.list-manage.com/subscribe/post?u=8aeb20a530e124561927d3bd8&amp;id=8c3d2d214b'
@@ -16,20 +17,15 @@ permalink: /:title/
 authors:
   arvind:
     name: Arvind Ram Sankar
-    display_name: Arvind
+    display_name: Arvind Ram Sankar
     gravatar: 3b3be63a4c2a439b013787725dfce802
     email: rarvind1999@gmail.com
     web: https://r-arvind.me
     twitter: https://twitter.com/the_real_arvind
-    description: "A small description about me. Lorem ipsum dolor el lupsum et al dicor divu sil hi linden"
-  john:
-    name: Arvind Ram Sankar
-    display_name: Arvind
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: rarvind1999@gmail.com
-    web: https://r-arvind.me
-    twitter: https://twitter.com/the_real_arvind
-    description: "A small description about me. Lorem ipsum dolor el lupsum et al dicor divu sil hi linden"
+    github: https://github.com/r-arvind
+    linkedin: https://linkedin.com/in/r-arvind
+    description: "Going through a renaissance right now"
+
 # Plugins
 plugins:
   - jekyll-paginate

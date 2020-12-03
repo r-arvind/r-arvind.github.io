@@ -7,13 +7,16 @@ tags: [markdown,report,pandoc]
 image: assets/images/md.jpg
 bannerimage: assets/images/md.jpg
 ---
+
+
 There are lots of powerful things you can do with the Markdown editor. If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
 
 This time, I'll be talking about how to write beautiful reports in markdown using pandoc
 
 
-## Special formatting
+## Preview
 
+We will be using this template for making our repor
 As well as bold and italics, you can also use some other special formatting in Markdown when the need arises, for example:
 
 + ~~strike through~~

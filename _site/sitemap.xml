@@ -5,6 +5,10 @@
 <lastmod>2018-06-12T00:00:00+05:30</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/curious-case-of-henry-molaison/</loc>
+<lastmod>2020-11-01T00:00:00+05:30</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/tracking-without-bells-and-whistles/</loc>
 <lastmod>2020-11-15T00:00:00+05:30</lastmod>
 </url>
@@ -15,6 +19,10 @@
 <url>
 <loc>http://localhost:4000/welcome-to-my-new-blog/</loc>
 <lastmod>2020-11-16T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/internet-privacy-proxy-servers-and-vpn/</loc>
+<lastmod>2020-11-24T00:00:00+05:30</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/about</loc>
@@ -42,5 +50,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/category/general/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/category/privacy/</loc>
 </url>
 </urlset>
