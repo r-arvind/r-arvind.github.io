@@ -6,7 +6,7 @@ categories: [Privacy]
 tags: [network privacy,security, internet]
 image: assets/images/privacy.jpg
 bannerimage: assets/images/privacy.jpg
-description: "A short description about tracker without bellls and whistles"
+description: "A look at proxy server and virtual private network and how they provide internet privacy"
 featured: false
 hidden: false
 ---

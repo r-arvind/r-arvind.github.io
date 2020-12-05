@@ -6,7 +6,7 @@ categories: [Computer Vision]
 tags: [object detector,faster rcnn,object tracking]
 image: assets/images/object-tracker.jpg
 bannerimage: assets/images/object-tracker.jpg
-description: "An object tracker without bells and whistles"
+description: "A new paradigm of object tracker without bells and whistles that is capable of tracking objects using just an object detector"
 featured: false
 hidden: false
 ---

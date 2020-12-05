@@ -6,14 +6,21 @@ categories: []
 tags: [cognition,memory]
 image: assets/images/curioushenry/henry.jpg
 bannerimage: assets/images/curioushenry/brain.jpg
-description: "An article about Henry Molaison, who gave birth to our current knowledge on various types of memories"
+description: "An article about Henry Molaison, who's curious case gave birth to our current knowledge on various types of memories"
 featured: false
 hidden: false
 ---
 
 The human brain is one of the most important part of our body and it took millions and millions of years of evolution to achieve this level of perfection. And even after decades of studies, we have only managed to decode a small section of our brain. 
 
-In the 21st century, one of the most well established theory about our brain is about the way it stores information i.e the concept of long term memory and short term memory and how our brain stores different informations in different manner. The story behind its discovery is very interesting. It all began from a person famously known as Patient HM in the world of neurosciencec. In order to completely understand the story, we need to travel back in time, back to America in the 1950s where our story takes place.
+
+
+
+In the 21st century, one of the most well established theory about our brain is about the way it stores information i.e the concept of long term memory and short term memory and how our brain stores different informations in different manner. If you don't know what it is, here is a really good video explaining the same.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/D77LhlEwc6M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The story behind its discovery is very interesting. It all began from a person famously known as Patient HM in the world of neurosciencec. In order to completely understand the story, we need to travel back in time, back to America in the 1950s where our story takes place.
 
 # The 20th century
 

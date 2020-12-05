@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Arvind Ram Sankar</title>
-    <description>You are at Arvind's Personal Website</description>
+    <description>You are at Arvind Ram Sankar's Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 04 Dec 2020 12:42:07 +0530</pubDate>
-    <lastBuildDate>Fri, 04 Dec 2020 12:42:07 +0530</lastBuildDate>
+    <pubDate>Sat, 05 Dec 2020 16:03:59 +0530</pubDate>
+    <lastBuildDate>Sat, 05 Dec 2020 16:03:59 +0530</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -131,7 +131,7 @@ Throughout this connection process, your identity is only revealed to the VPN no
 
 &lt;h3 id=&quot;why-i-switched-from-medium-to-a-custom-website&quot;&gt;Why I switched from Medium to a Custom Website&lt;/h3&gt;
 
-&lt;p&gt;Why did I rip-off a “Medium” looking template instead of writing articles on Medium itself? Well, that’s because:&lt;/p&gt;
+&lt;p&gt;Why did I rip-off a “Medium” looking template instead of writing articles on &lt;a href=&quot;https://medium.com/@r_arvind&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; itself? Well, that’s because:&lt;/p&gt;
 
 &lt;h4 id=&quot;1-its-a-custom-website&quot;&gt;1. It’s a custom website!&lt;/h4&gt;
 
@@ -371,7 +371,11 @@ As well as bold and italics, you can also use some other special formatting in M
         <title>The Curious Case of Henry Molaison</title>
         <description>&lt;p&gt;The human brain is one of the most important part of our body and it took millions and millions of years of evolution to achieve this level of perfection. And even after decades of studies, we have only managed to decode a small section of our brain.&lt;/p&gt;
 
-&lt;p&gt;In the 21st century, one of the most well established theory about our brain is about the way it stores information i.e the concept of long term memory and short term memory and how our brain stores different informations in different manner. The story behind its discovery is very interesting. It all began from a person famously known as Patient HM in the world of neurosciencec. In order to completely understand the story, we need to travel back in time, back to America in the 1950s where our story takes place.&lt;/p&gt;
+&lt;p&gt;In the 21st century, one of the most well established theory about our brain is about the way it stores information i.e the concept of long term memory and short term memory and how our brain stores different informations in different manner. If you don’t know what it is, here is a really good video explaining the same.&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/D77LhlEwc6M&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;The story behind its discovery is very interesting. It all began from a person famously known as Patient HM in the world of neurosciencec. In order to completely understand the story, we need to travel back in time, back to America in the 1950s where our story takes place.&lt;/p&gt;
 
 &lt;h1 id=&quot;the-20th-century&quot;&gt;The 20th century&lt;/h1&gt;
 

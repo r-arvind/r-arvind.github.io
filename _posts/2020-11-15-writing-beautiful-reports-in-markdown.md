@@ -6,6 +6,8 @@ categories: [Misc]
 tags: [markdown,report,pandoc]
 image: assets/images/md.jpg
 bannerimage: assets/images/md.jpg
+description: "Write beautiful pdf reports for your projects in markdown using pandoc and latex"
+
 ---
 
 

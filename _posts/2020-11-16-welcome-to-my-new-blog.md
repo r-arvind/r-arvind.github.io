@@ -5,6 +5,7 @@ author: arvind
 categories: [General]
 image: assets/images/hero.jpg
 bannerimage: assets/images/hero.jpg
+description: "Welcome to Arvind Ram Sankar's blog where I talk about tech and other stuff"
 featured: true
 hidden: true
 ---
@@ -13,7 +14,7 @@ Welcome to my new blog. I'll be posting a lot of interesting stuff here. Stay tu
 
 ### Why I switched from Medium to a Custom Website
 
-Why did I rip-off a "Medium" looking template instead of writing articles on Medium itself? Well, that's because:
+Why did I rip-off a "Medium" looking template instead of writing articles on <a href="https://medium.com/@r_arvind" target="_blank">Medium</a> itself? Well, that's because:
 
 #### 1. It's a custom website!
 
