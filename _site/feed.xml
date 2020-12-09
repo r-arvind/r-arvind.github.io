@@ -5,9 +5,124 @@
     <description>You are at Arvind Ram Sankar's Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 05 Dec 2020 16:03:59 +0530</pubDate>
-    <lastBuildDate>Sat, 05 Dec 2020 16:03:59 +0530</lastBuildDate>
+    <pubDate>Wed, 09 Dec 2020 18:19:03 +0530</pubDate>
+    <lastBuildDate>Wed, 09 Dec 2020 18:19:03 +0530</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>How to Make your own CSS Framework - Part 1</title>
+        <description>&lt;p&gt;This article is the first part of a comprehensive guide on how to build your own CSS framework, starting from planning, designing all the way to coding. These are the things that I learnt while I built my own CSS Framework &lt;a href=&quot;https://sleek.arvindrs.com/&quot; target=&quot;_blank&quot;&gt;Sleek&lt;/a&gt;, which is completely useless.&lt;/p&gt;
+
+&lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;CSS Framework is a must have tool for building a web application, especially if you are not a designer like me. In fact, I always start developing a new project by first choosing a JS and a CSS framework. There are a lot of good options out there, just to list a few:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.bulma.io&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Bulma&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tailwindcss.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Tailwind&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://semantic-ui.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Semantic UI&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And there is my CSS framework too!&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sleek.arvindrs.com/&quot; target=&quot;_blank&quot;&gt;Sleek&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Unfortunately, it was really bad and no one used it, not even me. But I’m here to make sure you don’t make the same mistakes that I did. In this article I’ll talk about how I went about building one and how you can build yours too. We will see how to plan, design, and code your CSS Framework in detail. It will be a long and arduous journey, so buckle up!&lt;/p&gt;
+
+&lt;p&gt;Now, before you start spending hours on building one, I have a question for you:&lt;/p&gt;
+
+&lt;h3 id=&quot;why-do-you-want-to-build-a-css-framework&quot;&gt;Why do you want to build a CSS Framework?&lt;/h3&gt;
+
+&lt;p&gt;Personally, I built it because I wanted to learn how to build one. If you are here for that, good for you. It’ll be a really great learning experience.&lt;/p&gt;
+
+&lt;p&gt;Another reason might be that you have a design system of your own, some buttons and components that you designed and you want a small CSS framework so that you can easily use it easily for your other projects. That is also a really good motive.&lt;/p&gt;
+
+&lt;p&gt;But if you are here hoping to build a CSS framework that you want thousands of people to use, then I want you to ask yourself: &lt;strong&gt;What unique feature does my CSS Framework offer&lt;/strong&gt;. Is it worth spending your precious time to build one? What is it that you are offerring that the dozens of frameworks out there don’t already have? Maybe it’s a new design, maybe it’s a bunch of really good components, maybe it’s a new way to write CSS. Unless your CSS framework is really good, it won’t attract the attention of developers and it will end up going to the CSS Framework graveyard, next to mine.&lt;/p&gt;
+
+&lt;p&gt;Now, for those of you who are still willing to make a framework, let’s move on to the juicy stuff.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-build-a-css-framework&quot;&gt;How to build a CSS Framework&lt;/h2&gt;
+
+&lt;p&gt;The process of building a CSS Framework can be essentially summed up into these four broad category:&lt;/p&gt;
+
+&lt;h3 id=&quot;planning&quot;&gt;Planning&lt;/h3&gt;
+
+&lt;p&gt;A lot of planning is involved in the building of a CSS framework. We will be looking at these things in detail in another article. Just to get you started, these are some questions that you might wanna think about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What type of framework do you want to build?&lt;/strong&gt; A simple, minimalistic one like &lt;a href=&quot;https://purecss.io/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt; PureCSS&lt;/a&gt; or a full fledged powerhouse like &lt;a href=&quot;https://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Bootstrap&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What components will your framework be offering?&lt;/strong&gt; Based on the answer to the previous question, you can either make a framework with just a couple different buttons and texts or complicated ones like navbar, accordions, dropdowns etc which might even require JS.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What architecture do you want to follow?&lt;/strong&gt; There are several architectures such as &lt;strong&gt;SMACSS&lt;/strong&gt; (Scalable Modular Architecture for CSS) or &lt;strong&gt;OOCSS&lt;/strong&gt; (Object Oriented CSS) or &lt;strong&gt;Atomic CSS&lt;/strong&gt;. Tailwind uses atomic architecture whereas Bulma uses SMACSS. This is something that you need to decide upon before building your framework.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;designing&quot;&gt;Designing&lt;/h3&gt;
+
+&lt;p&gt;Now this is the core part of the process. &lt;strong&gt;You need to design your components!&lt;/strong&gt; You have to make buttons, specify the padding, margins, width, fonts, colors and so much more! This is the place where you can show your creativity! The main topics to tackle in the designing phase are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Designing Components&lt;/li&gt;
+  &lt;li&gt;Color Palette&lt;/li&gt;
+  &lt;li&gt;Typography&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We won’t be going in-depth since I’m not exactly a designer and I am not qualified to talk about these. But I’ll mention the important things you need to lookout for while designing.&lt;/p&gt;
+
+&lt;h3 id=&quot;coding&quot;&gt;Coding&lt;/h3&gt;
+
+&lt;p&gt;This is the where we get hands on and start to implement the designs. This will be a long, boring and repititive task.&lt;/p&gt;
+
+&lt;p&gt;We will mainly have a look at:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How to setup a node environment for your framework&lt;/li&gt;
+  &lt;li&gt;Setup SASS and facilitate the process of building css and css.min.&lt;/li&gt;
+  &lt;li&gt;Writing your framework&lt;/li&gt;
+  &lt;li&gt;Building a complete pipeline starting from compiling to hosting your project online.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;documenting&quot;&gt;Documenting&lt;/h3&gt;
+
+&lt;p&gt;This is something that I completely forgot about when I was building my framework Sleek. &lt;a href=&quot;https://sleek.arvindrs.com/documentation&quot; target=&quot;_blank&quot;&gt;Sleek’s documentation&lt;/a&gt; is still incomplete because too many things got piled up and I never got time to finish.&lt;/p&gt;
+
+&lt;p&gt;Documentation is just as important as anything else in this process. &lt;strong&gt;No documentation means no on can use your framework!&lt;/strong&gt;. Whoever wants to use your framework will use the documentation for reference. So if the documentation isn’t good, however good your framework might be, no one will use it. &lt;strong&gt;Therefore, this has to go hand in hand with the coding process&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, there are a few automatic document generators out there. But remember, you are building a CSS framework here. So your documentation website should use your CSS framework and not generate it manually. Therefore, automatic generators are a no go. You will have to do it on your own. If you do know a better method, comment it below or send it to me. I’ll be more than happy to put it up here.&lt;/p&gt;
+
+&lt;h2 id=&quot;further-links&quot;&gt;Further Links&lt;/h2&gt;
+
+&lt;p&gt;This is the first article out of a series of article I am going to write. I hope this gave you some food for thought and got you motivated for building your own CSS Framework!&lt;/p&gt;
+
+&lt;p&gt;This is still a work in progress. I will be finishing up these articles soon so that you can get started building your own framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;How to make your own CSS Framework - Planning&lt;/a&gt; (Coming on 11th December)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;How to make your own CSS Framework - Designing&lt;/a&gt; (Coming on 13th December)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;How to make your own CSS Framework - Coding/Documenting&lt;/a&gt; (Coming on 15th December)&lt;/p&gt;
+
+&lt;p&gt;In the meantime, you can go ahead and look at other resources or find out more about things I’ve mentioned in this article like SMACSS and OOCSS.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Dec 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/make-your-own-css-framework/</link>
+        <guid isPermaLink="true">http://localhost:4000/make-your-own-css-framework/</guid>
+        
+        <category>CSS</category>
+        
+        
+        <category>CSS</category>
+        
+        <category>tutorial</category>
+        
+      </item>
     
       <item>
         <title>Internet Privacy: Proxy Servers and VPN</title>
@@ -122,39 +237,6 @@ Throughout this connection process, your identity is only revealed to the VPN no
         
         
         <category>Privacy</category>
-        
-      </item>
-    
-      <item>
-        <title>Welcome to Arvind's Blog</title>
-        <description>&lt;p&gt;Welcome to my new blog. I’ll be posting a lot of interesting stuff here. Stay tuned for more!&lt;/p&gt;
-
-&lt;h3 id=&quot;why-i-switched-from-medium-to-a-custom-website&quot;&gt;Why I switched from Medium to a Custom Website&lt;/h3&gt;
-
-&lt;p&gt;Why did I rip-off a “Medium” looking template instead of writing articles on &lt;a href=&quot;https://medium.com/@r_arvind&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; itself? Well, that’s because:&lt;/p&gt;
-
-&lt;h4 id=&quot;1-its-a-custom-website&quot;&gt;1. It’s a custom website!&lt;/h4&gt;
-
-&lt;p&gt;As a web developer, there is nothing better than having a website which you have total control of. I can do whatever I want with it and modify it however I want, no holds barred.&lt;/p&gt;
-
-&lt;p&gt;Obviously, Medium has a very good template, color scheme and font. Hence this “Mediumish” template. A huge shoutout to &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/wowthemesnet/mediumish-theme-jekyll&quot;&gt;Mediumish &lt;/a&gt; for developing this awesome template.&lt;/p&gt;
-
-&lt;h4 id=&quot;2-people-can-read-more-than-5-times&quot;&gt;2. People can read more than 5 times&lt;/h4&gt;
-
-&lt;p&gt;Well, the obvious drawback of Medium is that it only allows users to read five free articles a month. That’s fair considering that the authors also need to earn. And since my main motive for writing this blog isn’t money, I don’t need to have any such limitations.&lt;/p&gt;
-
-&lt;h4 id=&quot;3-advanced-technical-stuff&quot;&gt;3. Advanced Technical Stuff&lt;/h4&gt;
-
-&lt;p&gt;Since I am familiar with things like JAMStack, Search Engine Optimization and hosting websites, I find this pipeline to be easier. I host my website on Netlify, which allows me to even use custom domain and provides free SSL certificates. I can do my own SEO and don’t need Medium’s help and I use markdown with Jekyll (JAMStack) which is extremely easy to work with. I can also branch out my domain name into various subdomains and host all kinds of things here.&lt;/p&gt;
-
-&lt;p&gt;All in all, since I’m tech savvy, this is fairly easy for me and has more advantages than Medium. So here we are! I’ll be posting a lot of stuff (hopefully) on this website now.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 16 Nov 2020 00:00:00 +0530</pubDate>
-        <link>http://localhost:4000/welcome-to-my-new-blog/</link>
-        <guid isPermaLink="true">http://localhost:4000/welcome-to-my-new-blog/</guid>
-        
-        
-        <category>General</category>
         
       </item>
     
@@ -542,6 +624,39 @@ https://www.jmhhb.org/article.asp?issn=0971-8990;year=2014;volume=19;issue=2;spa
         
         <category>memory</category>
         
+        
+      </item>
+    
+      <item>
+        <title>Welcome to Arvind's Blog</title>
+        <description>&lt;p&gt;Welcome to my new blog. I’ll be posting a lot of interesting stuff here. Stay tuned for more!&lt;/p&gt;
+
+&lt;h3 id=&quot;why-i-switched-from-medium-to-a-custom-website&quot;&gt;Why I switched from Medium to a Custom Website&lt;/h3&gt;
+
+&lt;p&gt;Why did I rip-off a “Medium” looking template instead of writing articles on &lt;a href=&quot;https://medium.com/@r_arvind&quot; target=&quot;_blank&quot;&gt;Medium&lt;/a&gt; itself? Well, that’s because:&lt;/p&gt;
+
+&lt;h4 id=&quot;1-its-a-custom-website&quot;&gt;1. It’s a custom website!&lt;/h4&gt;
+
+&lt;p&gt;As a web developer, there is nothing better than having a website which you have total control of. I can do whatever I want with it and modify it however I want, no holds barred.&lt;/p&gt;
+
+&lt;p&gt;Obviously, Medium has a very good template, color scheme and font. Hence this “Mediumish” template. A huge shoutout to &lt;a target=&quot;_blank&quot; href=&quot;https://github.com/wowthemesnet/mediumish-theme-jekyll&quot;&gt;Mediumish &lt;/a&gt; for developing this awesome template.&lt;/p&gt;
+
+&lt;h4 id=&quot;2-people-can-read-more-than-5-times&quot;&gt;2. People can read more than 5 times&lt;/h4&gt;
+
+&lt;p&gt;Well, the obvious drawback of Medium is that it only allows users to read five free articles a month. That’s fair considering that the authors also need to earn. And since my main motive for writing this blog isn’t money, I don’t need to have any such limitations.&lt;/p&gt;
+
+&lt;h4 id=&quot;3-advanced-technical-stuff&quot;&gt;3. Advanced Technical Stuff&lt;/h4&gt;
+
+&lt;p&gt;Since I am familiar with things like JAMStack, Search Engine Optimization and hosting websites, I find this pipeline to be easier. I host my website on Netlify, which allows me to even use custom domain and provides free SSL certificates. I can do my own SEO and don’t need Medium’s help and I use markdown with Jekyll (JAMStack) which is extremely easy to work with. I can also branch out my domain name into various subdomains and host all kinds of things here.&lt;/p&gt;
+
+&lt;p&gt;All in all, since I’m tech savvy, this is fairly easy for me and has more advantages than Medium. So here we are! I’ll be posting a lot of stuff (hopefully) on this website now.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Oct 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/welcome-to-my-new-blog/</link>
+        <guid isPermaLink="true">http://localhost:4000/welcome-to-my-new-blog/</guid>
+        
+        
+        <category>General</category>
         
       </item>
     

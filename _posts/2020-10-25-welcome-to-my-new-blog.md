@@ -7,7 +7,7 @@ image: assets/images/hero.jpg
 bannerimage: assets/images/hero.jpg
 description: "Welcome to Arvind Ram Sankar's blog where I talk about tech and other stuff"
 featured: true
-hidden: true
+hidden: false
 ---
 
 Welcome to my new blog. I'll be posting a lot of interesting stuff here. Stay tuned for more!
