@@ -4,8 +4,8 @@ title:  "How to Make your own CSS Framework - Part 1"
 author: arvind
 categories: [CSS, tutorial]
 tags: [CSS]
-image: assets/images/makecss/css.webp
-bannerimage: assets/images/makecss/css.webp
+image: assets/images/makecss/css.png
+bannerimage: assets/images/makecss/css.png
 description: "This article is a comprehensive guide on how one can go about making their own CSS framework"
 featured: true
 hidden: true
