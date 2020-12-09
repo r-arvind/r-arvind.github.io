@@ -8,7 +8,7 @@ image: assets/images/makecss/css.webp
 bannerimage: assets/images/makecss/css.webp
 description: "This article is a comprehensive guide on how one can go about making their own CSS framework"
 featured: true
-hidden: false
+hidden: true
 ---
 
 
