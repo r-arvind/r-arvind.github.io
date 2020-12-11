@@ -22,7 +22,7 @@ If you haven't seen the previous article, go check it out here: <a href="{{site.
 
 Now that you have decided to start making a CSS Framework, it's time to start planning and chalk things out. There are two main things that you need to address at this stage:
 
-1. <a href="#css-architectures" >Different CSS Architectures for Frameworks</a>
+1. <a href="#css-architectures" >Various CSS Architectures for Frameworks</a>
 2. <a href="#complexity-of-your-framework" >Complexity of your Framework</a>
 
 

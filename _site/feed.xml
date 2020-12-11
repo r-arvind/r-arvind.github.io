@@ -5,8 +5,8 @@
     <description>You are at Arvind Ram Sankar's Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Dec 2020 19:58:12 +0530</pubDate>
-    <lastBuildDate>Fri, 11 Dec 2020 19:58:12 +0530</lastBuildDate>
+    <pubDate>Fri, 11 Dec 2020 20:08:45 +0530</pubDate>
+    <lastBuildDate>Fri, 11 Dec 2020 20:08:45 +0530</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -20,7 +20,7 @@
 &lt;p&gt;Now that you have decided to start making a CSS Framework, it’s time to start planning and chalk things out. There are two main things that you need to address at this stage:&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;#css-architectures&quot;&gt;Different CSS Architectures for Frameworks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#css-architectures&quot;&gt;Various CSS Architectures for Frameworks&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#complexity-of-your-framework&quot;&gt;Complexity of your Framework&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
