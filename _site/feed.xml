@@ -5,9 +5,402 @@
     <description>You are at Arvind Ram Sankar's Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 09 Dec 2020 18:56:13 +0530</pubDate>
-    <lastBuildDate>Wed, 09 Dec 2020 18:56:13 +0530</lastBuildDate>
+    <pubDate>Fri, 11 Dec 2020 19:58:12 +0530</pubDate>
+    <lastBuildDate>Fri, 11 Dec 2020 19:58:12 +0530</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
+    
+      <item>
+        <title>How to Make your own CSS Framework - Part 2</title>
+        <description>&lt;p&gt;This article is the second part of a comprehensive guide on how to build your own CSS framework, starting from planning, designing all the way to coding. These are the things that I learnt while I built my own CSS Framework &lt;a href=&quot;https://sleek.arvindrs.com/&quot; target=&quot;_blank&quot;&gt;Sleek&lt;/a&gt;, which is completely useless.&lt;/p&gt;
+
+&lt;p&gt;If you haven’t seen the previous article, go check it out here: &lt;a href=&quot;http://localhost:4000/how-to-make-your-own-css-framework-part-1&quot;&gt;How to Make your Own CSS Framework - Part 1 &lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;lets-start-planning&quot;&gt;Let’s start Planning&lt;/h2&gt;
+
+&lt;p&gt;Now that you have decided to start making a CSS Framework, it’s time to start planning and chalk things out. There are two main things that you need to address at this stage:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#css-architectures&quot;&gt;Different CSS Architectures for Frameworks&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#complexity-of-your-framework&quot;&gt;Complexity of your Framework&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Both of these are something that you need to determine before you go any further. Let’s have a look at each one of them.&lt;/p&gt;
+
+&lt;h3 id=&quot;css-architectures&quot;&gt;CSS Architectures&lt;/h3&gt;
+
+&lt;p&gt;Now, the unique thing about CSS is,it has no rules. What I mean is that &lt;strong&gt;there are several ways to achieve the same thing&lt;/strong&gt;. For example, if you want to center a text, you can use text-align, or you can use margin and padding to align it, or you can use flexbox to justify it, or &lt;strong&gt;use a code that you copied from stackoverflow&lt;/strong&gt;. It’s like a lawless jungle. Since CSS doesn’t have any such rules, people might end up writing haphazard code with weird classnames and styles.&lt;/p&gt;
+
+&lt;h5 id=&quot;what-are-css-architectures&quot;&gt;What are CSS Architectures?&lt;/h5&gt;
+&lt;p&gt;CSS architectures are guidelines on how to name, organize and write your CSS classes and styles with a focus on &lt;strong&gt;maintainability, scalability and reusability&lt;/strong&gt;, which is really important when building a framework. You can use these architectures even when writing the CSS for a website. They help you write better CSS with a lot of flexibility.&lt;/p&gt;
+
+&lt;p&gt;If you haven’t heard of CSS Architectures before, then this is a really good place to start. In this article, I’ll be looking at mainly four popular architectures:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;OOCSS - Object Oriented CSS&lt;/li&gt;
+  &lt;li&gt;BEM - Block Element Modifier&lt;/li&gt;
+  &lt;li&gt;SMACSS - Scalable Modular Architecture for CSS&lt;/li&gt;
+  &lt;li&gt;ACSS - Atomic CSS&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Again, these are &lt;strong&gt;not strict rules&lt;/strong&gt; but rather guidelines to better organize your code. You need not stick completely to these guidelines. You can always go wild and modify it according to your needs.&lt;/p&gt;
+
+&lt;h3 id=&quot;object-oriented-css-oocss&quot;&gt;&lt;a href=&quot;http://oocss.org/&quot; rel=&quot;nofollow noopenener&quot; target=&quot;_blank&quot;&gt;Object Oriented CSS (OOCSS)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Object Oriented CSS is loosely based on object oriented programming. Object Oriented Programming promotes the use of classes, object with a focus on reusability and modularity. The aim of OOCSS is the same.&lt;/p&gt;
+
+&lt;p&gt;But &lt;strong&gt;what does an object in OOCSS mean?&lt;/strong&gt; Here, an object refers to any repeating style that can be converted into reusable code. If something repeats again and again, make it into a reusable snippet, as simple as that.&lt;/p&gt;
+
+&lt;p&gt;Here is a quick overview of the OOCSS guidelines.&lt;/p&gt;
+
+&lt;h4 id=&quot;reusability&quot;&gt;Reusability&lt;/h4&gt;
+
+&lt;p&gt;If you have something like this:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nc&quot;&gt;.box1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.box2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;We can convert this into following:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nc&quot;&gt;.box&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.redbox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.greenbox&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;And then you can use it HTML like &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;div class=&quot;box redbox&quot;&amp;gt;&lt;/code&gt; or &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;div class=&quot;box greenbox&quot;&amp;gt;&lt;/code&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;separation-of-skin-and-structure&quot;&gt;Separation of Skin and Structure&lt;/h4&gt;
+
+&lt;p&gt;We should also separate the skin and structure of components.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Structure&lt;/strong&gt; involves physical attributes like height, width, margin, overflow, padding etc.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Skin&lt;/strong&gt; refers to visual details like color, font, border etc.&lt;/p&gt;
+
+&lt;p&gt;Here is a simple example of separation of skin and structure:&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nc&quot;&gt;.box-structure&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;100px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.box-skin1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nc&quot;&gt;.box-skin2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;yellow&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Separating skin also improves modularity and reusability. A same structure can be used multiple times with different skins.&lt;/p&gt;
+
+&lt;h4 id=&quot;separation-of-container-and-content&quot;&gt;Separation of Container and Content&lt;/h4&gt;
+
+&lt;p&gt;Let’s say you have a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;div class=&quot;shape&quot;&amp;gt;&lt;/code&gt; and an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;&amp;lt;img&amp;gt;  &lt;/code&gt; inside the div.&lt;/p&gt;
+
+&lt;p&gt;Try to avoid combining the styles of parent and child. For example :&lt;/p&gt;
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nc&quot;&gt;.shape&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;img&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;height&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;black&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Doing this prevents reusability of code. Always separate the container and the content.&lt;/p&gt;
+
+&lt;p&gt;Many of the popular frameworks such as Bootstrap and bulma use the OOCSS guidelines. This was just a brief overview of some of the OOCSS guidelines. You can read about it in this amazing article by &lt;a href=&quot;https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;Smashing Magazine&lt;/a&gt; or at it’s &lt;a href=&quot;https://github.com/stubbornella/oocss&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;Github page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;block-element-modifier-bem&quot;&gt;&lt;a href=&quot;http://getbem.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Block Element Modifier (BEM)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;The BEM contains guidelines on how one can go about &lt;strong&gt;naming their CSS classes&lt;/strong&gt;.  BEM is actually a subset of the bigger OOCSS architecure. As it’s name suggests, in BEM you essentially split you CSS into blocks, elements and modifiers.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Blocks :&lt;/strong&gt; A block is a standalone entity that is meaningful on its own. Headers, footers, Forms etc fall can be considered as blocks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Elements :&lt;/strong&gt; Elements are a part of a block that has no standalone meaning and is semantically tied to its block. Buttons in Navbar, Text Inputs in a form etc are elements associated with blocks.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Modifiers :&lt;/strong&gt; Modifiers are variants/extension of the Blocks and Elements. They might be offer different size, different color etc.&lt;/p&gt;
+
+&lt;p&gt;Elements of a block class &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.block{}&lt;/code&gt; are denoted as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.block__element{}&lt;/code&gt; and a modifier is denoted as &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.block--modifier{}&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;The codepen below illustrates an example of BEM based CSS&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-height=&quot;400&quot; data-theme-id=&quot;dark&quot; data-default-tab=&quot;css,result&quot; data-user=&quot;r-arvind&quot; data-slug-hash=&quot;QWKGOOq&quot; style=&quot;height: 400px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;BEM&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/r-arvind/pen/QWKGOOq&quot;&gt;
+  BEM&lt;/a&gt; by R Arvind (&lt;a href=&quot;https://codepen.io/r-arvind&quot;&gt;@r-arvind&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;!-- &lt;figure class=&quot;image&quot;&gt; --&gt;
+&lt;!-- &lt;img src=&quot;/assets/images/makecss/bem.png&quot; alt=&quot;Block Element Modifier&quot; /&gt; --&gt;
+&lt;!-- &lt;/figure&gt; --&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+This was just a simple overview of the BEM style guide. You can find out more about it on it’s website &lt;a href=&quot;http://getbem.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;BEM&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;scalable-modular-architecture-for-css-smacss&quot;&gt;&lt;a href=&quot;http://smacss.com/&quot; rel=&quot;nofollow noopenener&quot; target=&quot;_blank&quot;&gt;Scalable Modular Architecture for CSS (SMACSS)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;SMACSS provides a way to &lt;strong&gt;maintain and organize your code&lt;/strong&gt; such that it is scalable and modular. It divides the complete CSS codebase into five different categories:&lt;/p&gt;
+
+&lt;!-- &lt;ol&gt; --&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Base :&lt;/b&gt; Base contains the code for all the default values. For example, you might want to remove all margins from &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;html&lt;/code&gt;, or set a default size for &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h1&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;h2&lt;/code&gt; etc. All of these fall under this category.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nt&quot;&gt;html&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-family&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Arial&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#ffffff&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nt&quot;&gt;h1&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;nl&quot;&gt;font-size&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;50px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;b&gt;Layout :&lt;/b&gt; These components help divide the page into major sections. This includes components like header, footer, body etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;figure class=&quot;image&quot;&gt;
+&lt;img src=&quot;/assets/images/makecss/layout-smcss.png&quot; alt=&quot;SMACSS Layout&quot; /&gt;
+ &lt;figcaption&gt;Layout in SMCSS&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Modules :&lt;/b&gt; These are the reusable modular components of a design. That includes components like buttons, cards, alerts, lists etc&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;State :&lt;/b&gt; State describe how things look when in a particular state (hidden/expanded or active/inactive). These are generally prefixed with &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is-&lt;/code&gt;. For example, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is-active&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is-inactive&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is-expanded&lt;/code&gt;, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;is-hidden&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;b&gt;Theme :&lt;/b&gt; Theme define things that have to do with the appearance like a color scheme or typography etc.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- &lt;/ol&gt; --&gt;
+
+&lt;p&gt;Frameworks like Bulma and PureCSS follow the SMACSS guidelines. The &lt;a href=&quot;http://smacss.com/book/categorizing&quot; rel=&quot;nofollow noopenener&quot; target=&quot;_blank&quot;&gt;SMACSS website&lt;/a&gt; has more in-depth information about each one of those categories. But this much should be enough to proceed further.&lt;/p&gt;
+
+&lt;h3 id=&quot;atomic-css-acss&quot;&gt;&lt;a href=&quot;https://acss.io/&quot; rel=&quot;nofollow noopenener&quot; target=&quot;_blank&quot;&gt;Atomic CSS (ACSS)&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Atomic CSS is completely different from conventional CSS Architecture. Tailwind CSS uses Atomic design and if you have used it before you must know that it is quite a unique way of working with CSS.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Atomic CSS is the approach to CSS architecture that favors small, single-purpose classes with names based on visual function.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Atomic CSS, also known as Functional CSS is nothing but a collection of single purpose styling units. Atomic CSS is like a common “vocabulary” meant to style documents regardless of context or content.&lt;/p&gt;
+
+&lt;p&gt;The code below shows a simple example:&lt;/p&gt;
+
+&lt;div class=&quot;language-css highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;rouge-gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;rouge-code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;c&quot;&gt;/*red background*/&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.bg-r&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#eb4034&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;/*green background*/&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.bg-g&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;background-color&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#34eb59&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+
+&lt;span class=&quot;c&quot;&gt;/*small margin*/&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.mr-s&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;10px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;c&quot;&gt;/*medium margin*/&lt;/span&gt;
+&lt;span class=&quot;nc&quot;&gt;.mr-m&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+  &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;20px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;You can keep building CSS vocabulary like this and use it in your HTML. The codepen below illustrates the same.&lt;/p&gt;
+
+&lt;p class=&quot;codepen&quot; data-height=&quot;417&quot; data-theme-id=&quot;dark&quot; data-default-tab=&quot;html,result&quot; data-user=&quot;r-arvind&quot; data-slug-hash=&quot;rNMWdER&quot; style=&quot;height: 417px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;&quot; data-pen-title=&quot;Atomic CSS&quot;&gt;
+  &lt;span&gt;See the Pen &lt;a href=&quot;https://codepen.io/r-arvind/pen/rNMWdER&quot;&gt;
+  Atomic CSS&lt;/a&gt; by R Arvind (&lt;a href=&quot;https://codepen.io/r-arvind&quot;&gt;@r-arvind&lt;/a&gt;)
+  on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
+&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;The CSS classes themselves are small and immutable, you cannot modify them. And the most important thing is that &lt;strong&gt;Atomic CSS is unopinionated&lt;/strong&gt;. It’s not a framework with fancy components having fancy design. Rather, it’s just a bunch of utility classes that you can put to use. You can construct your own design out of these utility classes.&lt;/p&gt;
+
+&lt;h2 id=&quot;which-architecture-is-the-best&quot;&gt;Which architecture is the best?&lt;/h2&gt;
+
+&lt;p&gt;When we build our own CSS Framework in Part 4 of this series, we won’t be sticking to any one architecture. These are just guidelines to facilitate the process of making the framework. We will be borrowing a lot of concepts from these architectures and build one of our own. For example, we will use SMACSS guidelines to organize our folder, we will use OOCSS and BEM to name our classes and structure the styles and we will build some utility classes just like in Atomic CSS.&lt;/p&gt;
+
+&lt;p&gt;There is no such thing as the “best” architecture. Each has it’s own set of advantages, disadvantages and use cases. You are free to choose whichever framework depending on what your vision for the framework is.&lt;/p&gt;
+
+&lt;h3 id=&quot;complexity-of-your-framework&quot;&gt;Complexity of your Framework&lt;/h3&gt;
+
+&lt;p&gt;The complexity of your framework can lie anywhere between 0 to 10, with frameworks like &lt;a href=&quot;https://purecss.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;PureCSS&lt;/a&gt; and &lt;a href=&quot;https://milligram.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Milligram&lt;/a&gt; at level 1 and frameworks like &lt;a href=&quot;https://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Bootstrap&lt;/a&gt;, &lt;a href=&quot;https://semantic-ui.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Semantic&lt;/a&gt; and &lt;a href=&quot;https://get.foundation/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Foundation&lt;/a&gt; at a level of 10.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Remember, there is nothing right or wrong here&lt;/strong&gt;. Bootstrap is complex because &lt;strong&gt;Bootstrap is meant for rapid prototyping&lt;/strong&gt;. You can put together a big website using bootstrap in a matter of minutes; just put a navbar at the top, a jumbotron, a couple of cards, some grid layout and you are set. &lt;strong&gt;PureCSS on the other hand is meant to be simple and extensible&lt;/strong&gt;. It’s less than 10kB and it only comes with a few basic components, typographies and layouts. You can easily extend it with your own CSS or combine it with any other frameworks too.&lt;/p&gt;
+
+&lt;p&gt;The &lt;strong&gt;complexity of your framework depends on what your vision for the framework is&lt;/strong&gt;. You don’t need to stuff it with all sorts of different components, unless that’s what your aim is.&lt;/p&gt;
+
+&lt;p&gt;If you are building one for learning purposes, it doesn’t exactly matter what you are doing. You are free to make it however you want because no one is probably gonna use it.&lt;/p&gt;
+
+&lt;p&gt;If you want to make a design system as a part of an organization or for yourself, start small. First implement the bare minimums like buttons and layouts that are used frequently. Incrementally add more and more components until you have a collection of components.&lt;/p&gt;
+
+&lt;p&gt;And finally, if you are building it for other people to use, you might wanna think about how it is different from the existing ones out there. Does your framework offer a superior design? Or maybe some components that people use frequently but isn’t provided by any existing frameworks. What is it’s selling point? It should be really good in order to make people leave their existing framework and use a new one. Most of the developers take a liking to framework and never come out of the comfort zone.&lt;/p&gt;
+
+&lt;p&gt;If it’s just another framework with a couple of layouts, buttons and cards, no one will probably use it, just like my framework &lt;a href=&quot;https://sleek.arvindrs.com/&quot; target=&quot;_blank&quot;&gt;Sleek&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;heres-an-assignment-for-you&quot;&gt;Here’s an Assignment for you&lt;/h4&gt;
+
+&lt;p&gt;Go through the components list of each and every framework out there, have a look at the various components they offer and how they look, feel and work. &lt;strong&gt;Make a list of components that you would like to have in the V0.0.1 of your framework&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Here’s a link to some of the framework’s documentation. My favourite component to start off with is the button. So, I have linked to buttons of all these frameworks. Use this as a starting point and check out all the other components.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bulma.io/documentation/elements/button/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Bulma&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://getbootstrap.com/docs/5.0/components/buttons/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://semantic-ui.com/elements/button.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Semantic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://purecss.io/buttons/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Pure CSS&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://milligram.io/#button&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Milligram&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://get.foundation/sites/docs/button.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Foundation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://getuikit.com/docs/button&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;UIKit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Remember, only choose components that are essential. You can always add more components in the future.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+
+&lt;p&gt;If you managed to read till this point, I hope this article gives some insight into what goes into planning a CSS framework. When you finish your planning, you should have an idea about the components that you will be including in your framework and have some clarity on different CSS architectures.&lt;/p&gt;
+
+&lt;p&gt;In the next article, we will talk about some basic design guidlines after which we will start coding the framework in SASS.&lt;/p&gt;
+
+&lt;h2 id=&quot;further-links&quot;&gt;Further Links&lt;/h2&gt;
+
+&lt;p&gt;This is the second article out of a series of article I am going to write. I hope this gave you more insight into how to plan out your framework.&lt;/p&gt;
+
+&lt;p&gt;This is still a work in progress. I will be finishing up these articles soon so that you can get started building your own framework.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;How to make your own CSS Framework - Designing&lt;/a&gt; (Coming on 14th December)&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;How to make your own CSS Framework - Coding/Documenting&lt;/a&gt; (Coming on 16th December)&lt;/p&gt;
+
+&lt;p&gt;There are various other architecture likes &lt;a href=&quot;https://suitcss.github.io/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;SuitCSS&lt;/a&gt; which I haven’t mentioned here for the purpose of keeping this aricle short and concise. You can find more about it by just seraching them on the internet.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 09 Dec 2020 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/how-to-make-your-own-css-framework-part-2/</link>
+        <guid isPermaLink="true">http://localhost:4000/how-to-make-your-own-css-framework-part-2/</guid>
+        
+        <category>CSS</category>
+        
+        
+        <category>CSS</category>
+        
+        <category>tutorial</category>
+        
+      </item>
     
       <item>
         <title>How to Make your own CSS Framework - Part 1</title>
@@ -64,6 +457,8 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
+&lt;p&gt;You can read more on plannine here: &lt;a href=&quot;http://localhost:4000/how-to-make-your-own-css-framework-part-2&quot;&gt;How to Make your Own CSS Framework - Part 2 &lt;/a&gt;&lt;/p&gt;
+
 &lt;h3 id=&quot;designing&quot;&gt;Designing&lt;/h3&gt;
 
 &lt;p&gt;Now this is the core part of the process. &lt;strong&gt;You need to design your components!&lt;/strong&gt; You have to make buttons, specify the padding, margins, width, fonts, colors and so much more! This is the place where you can show your creativity! The main topics to tackle in the designing phase are:&lt;/p&gt;
@@ -105,9 +500,9 @@
 
 &lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;How to make your own CSS Framework - Planning&lt;/a&gt; (Coming on 11th December)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;How to make your own CSS Framework - Designing&lt;/a&gt; (Coming on 13th December)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;How to make your own CSS Framework - Designing&lt;/a&gt; (Coming on 14th December)&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;How to make your own CSS Framework - Coding/Documenting&lt;/a&gt; (Coming on 15th December)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;How to make your own CSS Framework - Coding/Documenting&lt;/a&gt; (Coming on 16th December)&lt;/p&gt;
 
 &lt;p&gt;In the meantime, you can go ahead and look at other resources or find out more about things I’ve mentioned in this article like SMACSS and OOCSS.&lt;/p&gt;
 </description>
