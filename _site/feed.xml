@@ -5,8 +5,8 @@
     <description>You are at Arvind Ram Sankar's Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Dec 2020 20:08:45 +0530</pubDate>
-    <lastBuildDate>Fri, 11 Dec 2020 20:08:45 +0530</lastBuildDate>
+    <pubDate>Fri, 11 Dec 2020 20:37:41 +0530</pubDate>
+    <lastBuildDate>Fri, 11 Dec 2020 20:37:41 +0530</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -191,10 +191,6 @@
   on &lt;a href=&quot;https://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/span&gt;
 &lt;/p&gt;
 &lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-&lt;!-- &lt;figure class=&quot;image&quot;&gt; --&gt;
-&lt;!-- &lt;img src=&quot;/assets/images/makecss/bem.png&quot; alt=&quot;Block Element Modifier&quot; /&gt; --&gt;
-&lt;!-- &lt;/figure&gt; --&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;
 This was just a simple overview of the BEM style guide. You can find out more about it on it’s website &lt;a href=&quot;http://getbem.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;BEM&lt;/a&gt;.&lt;/p&gt;

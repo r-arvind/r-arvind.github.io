@@ -160,10 +160,6 @@ The codepen below illustrates an example of BEM based CSS
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
 
 
-<!-- <figure class="image"> -->
-<!-- <img src="{{site.imageurl}}/makecss/bem.png" alt="Block Element Modifier" /> -->
-<!-- </figure> -->
-
 <br /><br />
 This was just a simple overview of the BEM style guide. You can find out more about it on it's website <a href="http://getbem.com/" rel="nofollow" target="_blank">BEM</a>. 
 
