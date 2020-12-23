@@ -15,12 +15,12 @@ description: "Find out more about Arvind Ram Sankar, his interests, his hobbies 
 
 
 <p>If you want to know more about me, you can easily <strike>stalk</strike> find me in one of the following places:</p>
-<a target="_blank" href="https://github.com/r-arvind"> <i class="fab fa-github"></i> </a>  &nbsp;
-<a target="_blank" href="https://linkedin.com/in/r-arvind"><i class="fab fa-linkedin"></i></a> &nbsp;
-<a target="_blank" href="https://twitter.com/the_real_arvind"> <i class="fab fa-twitter"></i> </a>  &nbsp;
-<a target="_blank" href="https://facebook.com/arvind.ramsankar.1"> <i class="fab fa-facebook"></i> </a>  &nbsp;
-<a target="_blank" href="https://www.artstation.com/r-arvind"> <i class="fab fa-artstation"></i> </a>  &nbsp;
-
+<a target="_blank" href="https://github.com/r-arvind"> <i class="fab fa-github" title="Arvind's Github Profile"></i> </a>  &nbsp;
+<a target="_blank" href="https://linkedin.com/in/r-arvind"><i class="fab fa-linkedin" title="Arvind's Linkedin Profile"></i></a> &nbsp;
+<a target="_blank" href="https://twitter.com/the_real_arvind"> <i class="fab fa-twitter" title="Arvind's Twitter Profile"></i> </a>  &nbsp;
+<a target="_blank" href="https://facebook.com/arvind.ramsankar.1"> <i class="fab fa-facebook" title="Arvind's Facebook Profile"></i> </a>  &nbsp;
+<a target="_blank" href="https://www.artstation.com/r-arvind"> <i class="fab fa-artstation" title="Arvind's Artstation Profile" ></i> </a>  &nbsp;
+<a target="_blank" href="https://dev.to/arvindrs"><i class="fab fa-dev" title="Arvind Ram Sankar's DEV Profile"></i></a>
 </div>
 
 <div class="col-md-5 pr-5">
