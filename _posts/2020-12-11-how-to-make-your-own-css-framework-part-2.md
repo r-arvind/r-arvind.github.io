@@ -317,9 +317,9 @@ This is the second article out of a series of article I am going to write. I hop
 
 This is still a work in progress. I will be finishing up these articles soon so that you can get started building your own framework.
 
-<a href="javascript:void(0)">How to make your own CSS Framework - Designing</a> (Coming on 14th December)
+<a href="{{site.url}}/how-to-make-your-own-css-framework-part-3/">How to make your own CSS Framework - Designing</a>
 
-<a href="javascript:void(0)">How to make your own CSS Framework - Coding/Documenting</a> (Coming on 16th December)
+<a href="javascript:void(0)">How to make your own CSS Framework - Coding/Documenting</a> (Coming on 31st December)
 
 
 There are various other architecture likes <a href="https://suitcss.github.io/" rel="nofollow" target="_blank">SuitCSS</a> which I haven't mentioned here for the purpose of keeping this aricle short and concise. You can find more about it by just seraching them on the internet.

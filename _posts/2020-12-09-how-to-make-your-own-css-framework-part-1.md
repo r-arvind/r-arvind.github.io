@@ -7,8 +7,8 @@ tags: [CSS]
 image: assets/images/makecss/css1.png
 bannerimage: assets/images/makecss/css1.png
 description: "This article is a comprehensive guide on how one can go about making their own CSS framework"
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 
@@ -62,7 +62,7 @@ A lot of planning is involved in the building of a CSS framework. We will be loo
 * **What architecture do you want to follow?** There are several architectures such as **SMACSS** (Scalable Modular Architecture for CSS) or **OOCSS** (Object Oriented CSS) or **Atomic CSS**. Tailwind uses atomic architecture whereas Bulma uses SMACSS. This is something that you need to decide upon before building your framework.
 
 
-You can read more on plannine here: <a href="{{site.url}}/how-to-make-your-own-css-framework-part-2">How to Make your Own CSS Framework - Part 2 </a>
+You can read more on planning here: <a href="{{site.url}}/how-to-make-your-own-css-framework-part-2">How to Make your Own CSS Framework - Part 2 </a>
 
 ### Designing
 
@@ -74,6 +74,7 @@ Now this is the core part of the process. **You need to design your components!*
 
 We won't be going in-depth since I'm not exactly a designer and I am not qualified to talk about these. But I'll mention the important things you need to lookout for while designing.
 
+You can read more about designing here: <a href="{{site.url}}/how-to-make-your-own-css-framework-part-3">How to Make your Own CSS Framework - Part 3 </a>
 
 ### Coding
 
@@ -102,11 +103,11 @@ This is the first article out of a series of article I am going to write. I hope
 
 This is still a work in progress. I will be finishing up these articles soon so that you can get started building your own framework.
 
-<a href="javascript:void(0)">How to make your own CSS Framework - Planning</a> (Coming on 11th December)
+<a href="{{site.url}}/how-to-make-your-own-css-framework-part-2">How to make your own CSS Framework - Planning</a>
 
-<a href="javascript:void(0)">How to make your own CSS Framework - Designing</a> (Coming on 14th December)
+<a href="{{site.url}}/how-to-make-your-own-css-framework-part-3">How to make your own CSS Framework - Designing</a>
 
-<a href="javascript:void(0)">How to make your own CSS Framework - Coding/Documenting</a> (Coming on 16th December)
+<a href="javascript:void(0)">How to make your own CSS Framework - Coding/Documenting</a> (Coming on 31st December)
 
 
 In the meantime, you can go ahead and look at other resources or find out more about things I've mentioned in this article like SMACSS and OOCSS.

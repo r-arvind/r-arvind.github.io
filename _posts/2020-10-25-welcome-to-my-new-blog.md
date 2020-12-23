@@ -6,7 +6,7 @@ categories: [General]
 image: assets/images/hero.jpg
 bannerimage: assets/images/hero.jpg
 description: "Welcome to Arvind Ram Sankar's blog where I talk about tech and other stuff"
-featured: true
+featured: false
 hidden: false
 ---
 
