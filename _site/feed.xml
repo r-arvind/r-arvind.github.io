@@ -5,8 +5,8 @@
     <description>You are at Arvind Ram Sankar's Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 24 Dec 2020 01:32:40 +0530</pubDate>
-    <lastBuildDate>Thu, 24 Dec 2020 01:32:40 +0530</lastBuildDate>
+    <pubDate>Fri, 25 Dec 2020 17:02:19 +0530</pubDate>
+    <lastBuildDate>Fri, 25 Dec 2020 17:02:19 +0530</lastBuildDate>
     <generator>Jekyll v4.1.1</generator>
     
       <item>
@@ -77,7 +77,7 @@
 &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;We will be using &lt;a href=&quot;https://necolas.github.io/normalize.css/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;&lt;strong&gt;Normalize CSS&lt;/strong&gt;&lt;/a&gt;, which is a really small and an amazing reset. You can checkout the code for Normalize &lt;a href=&quot;https://github.com/necolas/normalize.css/blob/master/normalize.css&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;here&lt;/a&gt;. It is well documented and you’ll be able to clearly see what components are being reset to what values.&lt;/p&gt;
+&lt;p&gt;We will be using &lt;a href=&quot;https://necolas.github.io/normalize.css/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;&lt;strong&gt;Normalize CSS&lt;/strong&gt;&lt;/a&gt;, which is a really small and an amazing reset. You can checkout the code for Normalize &lt;a href=&quot;https://github.com/necolas/normalize.css/blob/master/normalize.css&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;here&lt;/a&gt;. It is well documented and you’ll be able to clearly see what components are being reset to what values.&lt;/p&gt;
 
 &lt;h3 id=&quot;media-queries&quot;&gt;Media Queries&lt;/h3&gt;
 
@@ -156,7 +156,7 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 
 &lt;p&gt;My go to tool for designing is &lt;a href=&quot;https://www.figma.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Figma&lt;/a&gt;. The main reason is that it’s an online tool and it offers upto 3 projects in free version, which is more than enough for me.&lt;/p&gt;
 
-&lt;p&gt;There are lots of other good tools in the market like AdobeXD, Sketch. &lt;a href=&quot;https://www.citrusbits.com/app-designing-tools-comparison-with-pros-and-cons/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;This article&lt;/a&gt; gives a really good comparison of some design tools.&lt;/p&gt;
+&lt;p&gt;There are lots of other good tools in the market like AdobeXD, Sketch. &lt;a href=&quot;https://www.citrusbits.com/app-designing-tools-comparison-with-pros-and-cons/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;This article&lt;/a&gt; gives a really good comparison of some design tools.&lt;/p&gt;
 
 &lt;p&gt;But always keep in mind that in the end, it’s just a design tool. What matters is what you build with it. A lot of people tend to waste time jumping from one tool to another. Just pick one which feels comfortable to use. You can always switch tools in the future if it doesn’t feel right. Most of the skills you pick up are transferable. Once you master one software, it won’t take much time to master a new one.&lt;/p&gt;
 
@@ -170,9 +170,9 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 
 &lt;p&gt;There are a plethora of font faces available for you to choose from. Picking the right font is just as important as anything else. Your font should be cohesive with the rest of your design.&lt;/p&gt;
 
-&lt;p&gt;While browsing the web, I found this is really good &lt;a href=&quot;https://www.jotform.com/blog/a-crash-course-in-typography-the-basics-of-type/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Crash Course on Fonts&lt;/a&gt;. This will give you a good idea about types of font available for you to use.&lt;/p&gt;
+&lt;p&gt;While browsing the web, I found this is really good &lt;a href=&quot;https://www.jotform.com/blog/a-crash-course-in-typography-the-basics-of-type/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Crash Course on Fonts&lt;/a&gt;. This will give you a good idea about types of font available for you to use.&lt;/p&gt;
 
-&lt;p&gt;Personally, I tend to find Sans-serif Geometric Typefaces to be really attractive because they are simple and elegant. But the typeface also depends on your framework. If you are building some wacky CSS Framework like &lt;a href=&quot;https://nostalgic-css.github.io/NES.css/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;NES&lt;/a&gt;, you can even use Comic Sans. That’s totally upto you.&lt;/p&gt;
+&lt;p&gt;Personally, I tend to find Sans-serif Geometric Typefaces to be really attractive because they are simple and elegant. But the typeface also depends on your framework. If you are building some wacky CSS Framework like &lt;a href=&quot;https://nostalgic-css.github.io/NES.css/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;NES&lt;/a&gt;, you can even use Comic Sans. That’s totally upto you.&lt;/p&gt;
 
 &lt;figure class=&quot;image&quot;&gt;
 &lt;img src=&quot;/assets/images/makecss/nes.png&quot; alt=&quot;NES CSS Framework&quot; /&gt;
@@ -186,14 +186,14 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 
 &lt;p&gt;Again this is not something that I am expert at, but there is a whole subject about colors, how to choose appealing colors and what colors look good when you combine them. There are different color schemes like monochromatic, complimentary, triads etc.&lt;/p&gt;
 
-&lt;p&gt;The &lt;a href=&quot;https://color.adobe.com/create/color-wheel&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;Adobe Color&lt;/a&gt; is a really good online tool which gives you colors based on different schemes.&lt;/p&gt;
+&lt;p&gt;The &lt;a href=&quot;https://color.adobe.com/create/color-wheel&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Adobe Color&lt;/a&gt; is a really good online tool which gives you colors based on different schemes.&lt;/p&gt;
 
 &lt;figure class=&quot;image&quot;&gt;
 &lt;img src=&quot;/assets/images/makecss/adobecolor.png&quot; alt=&quot;Adobe Color Tool&quot; /&gt;
  &lt;figcaption&gt;Adobe Color Tool&lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;The image below shows the colors used in &lt;a href=&quot;https://bulma.io/documentation/overview/colors/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Bulma&lt;/a&gt; CSS Framework. If you have worked with different frameworks, you should know that a framework traditionally has colors like primary, success, danger etc.&lt;/p&gt;
+&lt;p&gt;The image below shows the colors used in &lt;a href=&quot;https://bulma.io/documentation/overview/colors/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;Bulma&lt;/a&gt; CSS Framework. If you have worked with different frameworks, you should know that a framework traditionally has colors like primary, success, danger etc.&lt;/p&gt;
 
 &lt;figure class=&quot;image&quot;&gt;
 &lt;img src=&quot;/assets/images/makecss/bulmacolor.png&quot; alt=&quot;Adobe Color Tool&quot; /&gt;
@@ -202,9 +202,9 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 &lt;p&gt;I’ve linked to various frameworks’ colors. Check them out and observe what colors they are using. Maybe you’ll find some inspiration for your own framework.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://getbootstrap.com/docs/5.0/customize/color/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt; Bootstrap Colors&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://material.io/design/color/the-color-system.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt; Material Design Colors&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://semantic-ui.com/usage/theming.html#sitewide-defaults&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt; Semantic UI Colors&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://getbootstrap.com/docs/5.0/customize/color/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Bootstrap Colors&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://material.io/design/color/the-color-system.html&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Material Design Colors&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://semantic-ui.com/usage/theming.html#sitewide-defaults&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt; Semantic UI Colors&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
@@ -271,7 +271,7 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 
 &lt;p&gt;Again, these are &lt;strong&gt;not strict rules&lt;/strong&gt; but rather guidelines to better organize your code. You need not stick completely to these guidelines. You can always go wild and modify it according to your needs.&lt;/p&gt;
 
-&lt;h3 id=&quot;object-oriented-css-oocss&quot;&gt;&lt;a href=&quot;http://oocss.org/&quot; rel=&quot;nofollow noopenener&quot; target=&quot;_blank&quot;&gt;Object Oriented CSS (OOCSS)&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;object-oriented-css-oocss&quot;&gt;&lt;a href=&quot;http://oocss.org/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;Object Oriented CSS (OOCSS)&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;Object Oriented CSS is loosely based on object oriented programming. Object Oriented Programming promotes the use of classes, object with a focus on reusability and modularity. The aim of OOCSS is the same.&lt;/p&gt;
 
@@ -398,7 +398,7 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 
 &lt;p&gt;Many of the popular frameworks such as Bootstrap and bulma use the OOCSS guidelines. This was just a brief overview of some of the OOCSS guidelines. You can read about it in this amazing article by &lt;a href=&quot;https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;Smashing Magazine&lt;/a&gt; or at it’s &lt;a href=&quot;https://github.com/stubbornella/oocss&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;Github page&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&quot;block-element-modifier-bem&quot;&gt;&lt;a href=&quot;http://getbem.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;Block Element Modifier (BEM)&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;block-element-modifier-bem&quot;&gt;&lt;a href=&quot;http://getbem.com/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;Block Element Modifier (BEM)&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;The BEM contains guidelines on how one can go about &lt;strong&gt;naming their CSS classes&lt;/strong&gt;.  BEM is actually a subset of the bigger OOCSS architecure. As it’s name suggests, in BEM you essentially split you CSS into blocks, elements and modifiers.&lt;/p&gt;
 
@@ -420,7 +420,7 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 &lt;script async=&quot;&quot; src=&quot;https://cpwebassets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
 
 &lt;p&gt;&lt;br /&gt;&lt;br /&gt;
-This was just a simple overview of the BEM style guide. You can find out more about it on it’s website &lt;a href=&quot;http://getbem.com/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;BEM&lt;/a&gt;.&lt;/p&gt;
+This was just a simple overview of the BEM style guide. You can find out more about it on it’s website &lt;a href=&quot;http://getbem.com/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;BEM&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&quot;scalable-modular-architecture-for-css-smacss&quot;&gt;&lt;a href=&quot;http://smacss.com/&quot; rel=&quot;nofollow noopenener&quot; target=&quot;_blank&quot;&gt;Scalable Modular Architecture for CSS (SMACSS)&lt;/a&gt;&lt;/h3&gt;
 
@@ -483,9 +483,9 @@ This was just a simple overview of the BEM style guide. You can find out more ab
 
 &lt;!-- &lt;/ol&gt; --&gt;
 
-&lt;p&gt;Frameworks like Bulma and PureCSS follow the SMACSS guidelines. The &lt;a href=&quot;http://smacss.com/book/categorizing&quot; rel=&quot;nofollow noopenener&quot; target=&quot;_blank&quot;&gt;SMACSS website&lt;/a&gt; has more in-depth information about each one of those categories. But this much should be enough to proceed further.&lt;/p&gt;
+&lt;p&gt;Frameworks like Bulma and PureCSS follow the SMACSS guidelines. The &lt;a href=&quot;http://smacss.com/book/categorizing&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;SMACSS website&lt;/a&gt; has more in-depth information about each one of those categories. But this much should be enough to proceed further.&lt;/p&gt;
 
-&lt;h3 id=&quot;atomic-css-acss&quot;&gt;&lt;a href=&quot;https://acss.io/&quot; rel=&quot;nofollow noopenener&quot; target=&quot;_blank&quot;&gt;Atomic CSS (ACSS)&lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;atomic-css-acss&quot;&gt;&lt;a href=&quot;https://acss.io/&quot; rel=&quot;nofollow noopener&quot; target=&quot;_blank&quot;&gt;Atomic CSS (ACSS)&lt;/a&gt;&lt;/h3&gt;
 
 &lt;p&gt;Atomic CSS is completely different from conventional CSS Architecture. Tailwind CSS uses Atomic design and if you have used it before you must know that it is quite a unique way of working with CSS.&lt;/p&gt;
 
@@ -562,7 +562,7 @@ This was just a simple overview of the BEM style guide. You can find out more ab
 
 &lt;h3 id=&quot;complexity-of-your-framework&quot;&gt;Complexity of your Framework&lt;/h3&gt;
 
-&lt;p&gt;The complexity of your framework can lie anywhere between 0 to 10, with frameworks like &lt;a href=&quot;https://purecss.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;PureCSS&lt;/a&gt; and &lt;a href=&quot;https://milligram.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Milligram&lt;/a&gt; at level 1 and frameworks like &lt;a href=&quot;https://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Bootstrap&lt;/a&gt;, &lt;a href=&quot;https://semantic-ui.com/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Semantic&lt;/a&gt; and &lt;a href=&quot;https://get.foundation/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;Foundation&lt;/a&gt; at a level of 10.&lt;/p&gt;
+&lt;p&gt;The complexity of your framework can lie anywhere between 0 to 10, with frameworks like &lt;a href=&quot;https://purecss.io/&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;PureCSS&lt;/a&gt; and &lt;a href=&quot;https://milligram.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Milligram&lt;/a&gt; at level 1 and frameworks like &lt;a href=&quot;https://getbootstrap.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Bootstrap&lt;/a&gt;, &lt;a href=&quot;https://semantic-ui.com/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Semantic&lt;/a&gt; and &lt;a href=&quot;https://get.foundation/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Foundation&lt;/a&gt; at a level of 10.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Remember, there is nothing right or wrong here&lt;/strong&gt;. Bootstrap is complex because &lt;strong&gt;Bootstrap is meant for rapid prototyping&lt;/strong&gt;. You can put together a big website using bootstrap in a matter of minutes; just put a navbar at the top, a jumbotron, a couple of cards, some grid layout and you are set. &lt;strong&gt;PureCSS on the other hand is meant to be simple and extensible&lt;/strong&gt;. It’s less than 10kB and it only comes with a few basic components, typographies and layouts. You can easily extend it with your own CSS or combine it with any other frameworks too.&lt;/p&gt;
 
@@ -608,9 +608,9 @@ This was just a simple overview of the BEM style guide. You can find out more ab
 
 &lt;p&gt;&lt;a href=&quot;http://localhost:4000/how-to-make-your-own-css-framework-part-3/&quot;&gt;How to make your own CSS Framework - Designing&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot;&gt;How to make your own CSS Framework - Coding/Documenting&lt;/a&gt; (Coming on 31st December)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;javascript:void(0)&quot; rel=&quot;nofollow noopener&quot;&gt;How to make your own CSS Framework - Coding/Documenting&lt;/a&gt; (Coming on 31st December)&lt;/p&gt;
 
-&lt;p&gt;There are various other architecture likes &lt;a href=&quot;https://suitcss.github.io/&quot; rel=&quot;nofollow&quot; target=&quot;_blank&quot;&gt;SuitCSS&lt;/a&gt; which I haven’t mentioned here for the purpose of keeping this aricle short and concise. You can find more about it by just seraching them on the internet.&lt;/p&gt;
+&lt;p&gt;There are various other architecture likes &lt;a href=&quot;https://suitcss.github.io/&quot; rel=&quot;noopener&quot; target=&quot;_blank&quot;&gt;SuitCSS&lt;/a&gt; which I haven’t mentioned here for the purpose of keeping this aricle short and concise. You can find more about it by just seraching them on the internet.&lt;/p&gt;
 </description>
         <pubDate>Fri, 11 Dec 2020 00:00:00 +0530</pubDate>
         <link>http://localhost:4000/how-to-make-your-own-css-framework-part-2/</link>
@@ -1000,7 +1000,7 @@ As well as bold and italics, you can also use some other special formatting in M
         <title>Tracking Without Bells and Whistles</title>
         <description>&lt;p&gt;This article talks about a completely new paradigm of object tracker called &lt;strong&gt;Tracktor&lt;/strong&gt;. And what’s special about this tracker is that it requires only an object detector and nothing else! No additional training or additional algorithm is required for tracking objects. Hence the name “tracking without bells and whistles”.&lt;/p&gt;
 
-&lt;p&gt;You can checkout the complete research paper at &lt;a href=&quot;https://arxiv.org/abs/1903.05625&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;arXiv.org&lt;/a&gt;. This article gives an overview of the paper.&lt;/p&gt;
+&lt;p&gt;You can checkout the complete research paper at &lt;a href=&quot;https://arxiv.org/abs/1903.05625&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener&quot;&gt;arXiv.org&lt;/a&gt;. This article gives an overview of the paper.&lt;/p&gt;
 
 &lt;h2 id=&quot;tracking-by-detection&quot;&gt;Tracking by detection&lt;/h2&gt;
 

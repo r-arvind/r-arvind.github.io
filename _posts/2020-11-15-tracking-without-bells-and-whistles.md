@@ -13,7 +13,7 @@ hidden: false
 
 This article talks about a completely new paradigm of object tracker called **Tracktor**. And what's special about this tracker is that it requires only an object detector and nothing else! No additional training or additional algorithm is required for tracking objects. Hence the name "tracking without bells and whistles".
 
-You can checkout the complete research paper at <a href="https://arxiv.org/abs/1903.05625" target="_blank" rel="nofollow">arXiv.org</a>. This article gives an overview of the paper.
+You can checkout the complete research paper at <a href="https://arxiv.org/abs/1903.05625" target="_blank" rel="nofollow noopener">arXiv.org</a>. This article gives an overview of the paper.
 
 
 

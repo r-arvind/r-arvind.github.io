@@ -46,7 +46,7 @@ If you haven't heard of CSS Architectures before, then this is a really good pla
 Again, these are **not strict rules** but rather guidelines to better organize your code. You need not stick completely to these guidelines. You can always go wild and modify it according to your needs.
 
 
-### <a href="http://oocss.org/" rel="nofollow noopenener" target="_blank">Object Oriented CSS (OOCSS)</a>
+### <a href="http://oocss.org/" rel="nofollow noopener" target="_blank">Object Oriented CSS (OOCSS)</a>
 
 Object Oriented CSS is loosely based on object oriented programming. Object Oriented Programming promotes the use of classes, object with a focus on reusability and modularity. The aim of OOCSS is the same. 
 
@@ -138,7 +138,7 @@ Many of the popular frameworks such as Bootstrap and bulma use the OOCSS guideli
 
 
 
-### <a href="http://getbem.com/" rel="nofollow" target="_blank">Block Element Modifier (BEM)</a>
+### <a href="http://getbem.com/" rel="nofollow noopener" target="_blank">Block Element Modifier (BEM)</a>
 
 The BEM contains guidelines on how one can go about **naming their CSS classes**.  BEM is actually a subset of the bigger OOCSS architecure. As it's name suggests, in BEM you essentially split you CSS into blocks, elements and modifiers.
 
@@ -161,7 +161,7 @@ The codepen below illustrates an example of BEM based CSS
 
 
 <br /><br />
-This was just a simple overview of the BEM style guide. You can find out more about it on it's website <a href="http://getbem.com/" rel="nofollow" target="_blank">BEM</a>. 
+This was just a simple overview of the BEM style guide. You can find out more about it on it's website <a href="http://getbem.com/" rel="nofollow noopener" target="_blank">BEM</a>. 
 
 
 
@@ -206,9 +206,9 @@ h1 {
 
 <!-- </ol> -->
 
-Frameworks like Bulma and PureCSS follow the SMACSS guidelines. The <a href="http://smacss.com/book/categorizing" rel="nofollow noopenener" target="_blank">SMACSS website</a> has more in-depth information about each one of those categories. But this much should be enough to proceed further.
+Frameworks like Bulma and PureCSS follow the SMACSS guidelines. The <a href="http://smacss.com/book/categorizing" rel="nofollow noopener" target="_blank">SMACSS website</a> has more in-depth information about each one of those categories. But this much should be enough to proceed further.
 
-### <a href="https://acss.io/" rel="nofollow noopenener" target="_blank">Atomic CSS (ACSS)</a>
+### <a href="https://acss.io/" rel="nofollow noopener" target="_blank">Atomic CSS (ACSS)</a>
 
 Atomic CSS is completely different from conventional CSS Architecture. Tailwind CSS uses Atomic design and if you have used it before you must know that it is quite a unique way of working with CSS.
 
@@ -268,7 +268,7 @@ There is no such thing as the "best" architecture. Each has it's own set of adva
 ### Complexity of your Framework
 
 
-The complexity of your framework can lie anywhere between 0 to 10, with frameworks like <a href="https://purecss.io/" target="_blank" rel="nofollow noopener">PureCSS</a> and <a href="https://milligram.io/" target="_blank" rel="nofollow noopener">Milligram</a> at level 1 and frameworks like <a href="https://getbootstrap.com/" target="_blank" rel="nofollow noopener">Bootstrap</a>, <a href="https://semantic-ui.com/" target="_blank" rel="nofollow noopener">Semantic</a> and <a href="https://get.foundation/" target="_blank" rel="nofollow noopener">Foundation</a> at a level of 10.
+The complexity of your framework can lie anywhere between 0 to 10, with frameworks like <a href="https://purecss.io/" target="_blank" rel="nofollow noopener">PureCSS</a> and <a href="https://milligram.io/" target="_blank" rel="noopener">Milligram</a> at level 1 and frameworks like <a href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap</a>, <a href="https://semantic-ui.com/" target="_blank" rel="noopener">Semantic</a> and <a href="https://get.foundation/" target="_blank" rel="noopener">Foundation</a> at a level of 10.
 
 
 
@@ -319,7 +319,7 @@ This is still a work in progress. I will be finishing up these articles soon so 
 
 <a href="{{site.url}}/how-to-make-your-own-css-framework-part-3/">How to make your own CSS Framework - Designing</a>
 
-<a href="javascript:void(0)">How to make your own CSS Framework - Coding/Documenting</a> (Coming on 31st December)
+<a href="javascript:void(0)" rel="nofollow noopener">How to make your own CSS Framework - Coding/Documenting</a> (Coming on 31st December)
 
 
-There are various other architecture likes <a href="https://suitcss.github.io/" rel="nofollow" target="_blank">SuitCSS</a> which I haven't mentioned here for the purpose of keeping this aricle short and concise. You can find more about it by just seraching them on the internet.
+There are various other architecture likes <a href="https://suitcss.github.io/" rel="noopener" target="_blank">SuitCSS</a> which I haven't mentioned here for the purpose of keeping this aricle short and concise. You can find more about it by just seraching them on the internet.

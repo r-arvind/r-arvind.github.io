@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 ```
 
-We will be using <a href="https://necolas.github.io/normalize.css/" target="_blank" rel="nofollow">**Normalize CSS**</a>, which is a really small and an amazing reset. You can checkout the code for Normalize <a href="https://github.com/necolas/normalize.css/blob/master/normalize.css" target="_blank" rel="nofollow">here</a>. It is well documented and you'll be able to clearly see what components are being reset to what values.
+We will be using <a href="https://necolas.github.io/normalize.css/" target="_blank" rel="nofollow noopener">**Normalize CSS**</a>, which is a really small and an amazing reset. You can checkout the code for Normalize <a href="https://github.com/necolas/normalize.css/blob/master/normalize.css" target="_blank" rel="nofollow noopener">here</a>. It is well documented and you'll be able to clearly see what components are being reset to what values.
 
 
 ### Media Queries
@@ -119,7 +119,7 @@ I am not really an expert in web design or UI/UX. But it is really easy to find 
 
 My go to tool for designing is <a href="https://www.figma.com/" target="_blank" rel="nofollow noopener">Figma</a>. The main reason is that it's an online tool and it offers upto 3 projects in free version, which is more than enough for me.
 
-There are lots of other good tools in the market like AdobeXD, Sketch. <a href="https://www.citrusbits.com/app-designing-tools-comparison-with-pros-and-cons/" rel="nofollow" target="_blank">This article</a> gives a really good comparison of some design tools.
+There are lots of other good tools in the market like AdobeXD, Sketch. <a href="https://www.citrusbits.com/app-designing-tools-comparison-with-pros-and-cons/" rel="nofollow noopener" target="_blank">This article</a> gives a really good comparison of some design tools.
 
 But always keep in mind that in the end, it's just a design tool. What matters is what you build with it. A lot of people tend to waste time jumping from one tool to another. Just pick one which feels comfortable to use. You can always switch tools in the future if it doesn't feel right. Most of the skills you pick up are transferable. Once you master one software, it won't take much time to master a new one. 
 
@@ -133,9 +133,9 @@ This is another essential element to a CSS Framework. Your font defines your CSS
 
 There are a plethora of font faces available for you to choose from. Picking the right font is just as important as anything else. Your font should be cohesive with the rest of your design.
 
-While browsing the web, I found this is really good <a href="https://www.jotform.com/blog/a-crash-course-in-typography-the-basics-of-type/" rel="nofollow" target="_blank">Crash Course on Fonts</a>. This will give you a good idea about types of font available for you to use.
+While browsing the web, I found this is really good <a href="https://www.jotform.com/blog/a-crash-course-in-typography-the-basics-of-type/" rel="noopener" target="_blank">Crash Course on Fonts</a>. This will give you a good idea about types of font available for you to use.
 
-Personally, I tend to find Sans-serif Geometric Typefaces to be really attractive because they are simple and elegant. But the typeface also depends on your framework. If you are building some wacky CSS Framework like <a href="https://nostalgic-css.github.io/NES.css/" target="_blank" rel="nofollow">NES</a>, you can even use Comic Sans. That's totally upto you. 
+Personally, I tend to find Sans-serif Geometric Typefaces to be really attractive because they are simple and elegant. But the typeface also depends on your framework. If you are building some wacky CSS Framework like <a href="https://nostalgic-css.github.io/NES.css/" target="_blank" rel="noopener">NES</a>, you can even use Comic Sans. That's totally upto you. 
 
 <figure class="image">
 <img src="{{site.imageurl}}/makecss/nes.png" alt="NES CSS Framework" />
@@ -150,14 +150,14 @@ There are a total of 256 x 256 x 256 combinations of color possible. It is gener
 
 Again this is not something that I am expert at, but there is a whole subject about colors, how to choose appealing colors and what colors look good when you combine them. There are different color schemes like monochromatic, complimentary, triads etc. 
 
-The <a href="https://color.adobe.com/create/color-wheel" target="_blank" rel="nofollow">Adobe Color</a> is a really good online tool which gives you colors based on different schemes.
+The <a href="https://color.adobe.com/create/color-wheel" target="_blank" rel="noopener">Adobe Color</a> is a really good online tool which gives you colors based on different schemes.
 
 <figure class="image">
 <img src="{{site.imageurl}}/makecss/adobecolor.png" alt="Adobe Color Tool" />
  <figcaption>Adobe Color Tool</figcaption>
 </figure>
 
-The image below shows the colors used in <a href="https://bulma.io/documentation/overview/colors/" rel="nofollow" target="_blank">Bulma</a> CSS Framework. If you have worked with different frameworks, you should know that a framework traditionally has colors like primary, success, danger etc.
+The image below shows the colors used in <a href="https://bulma.io/documentation/overview/colors/" rel="noopener" target="_blank">Bulma</a> CSS Framework. If you have worked with different frameworks, you should know that a framework traditionally has colors like primary, success, danger etc.
 
 <figure class="image">
 <img src="{{site.imageurl}}/makecss/bulmacolor.png" alt="Adobe Color Tool" />
@@ -165,9 +165,9 @@ The image below shows the colors used in <a href="https://bulma.io/documentation
 
 I've linked to various frameworks' colors. Check them out and observe what colors they are using. Maybe you'll find some inspiration for your own framework.
 
-* <a href="https://getbootstrap.com/docs/5.0/customize/color/" target="_blank" rel="nofollow"> Bootstrap Colors</a>
-* <a href="https://material.io/design/color/the-color-system.html" target="_blank" rel="nofollow"> Material Design Colors</a>
-* <a href="https://semantic-ui.com/usage/theming.html#sitewide-defaults" target="_blank" rel="nofollow"> Semantic UI Colors</a>
+* <a href="https://getbootstrap.com/docs/5.0/customize/color/" target="_blank" rel="noopener"> Bootstrap Colors</a>
+* <a href="https://material.io/design/color/the-color-system.html" target="_blank" rel="noopener"> Material Design Colors</a>
+* <a href="https://semantic-ui.com/usage/theming.html#sitewide-defaults" target="_blank" rel="noopener"> Semantic UI Colors</a>
 
 
 
