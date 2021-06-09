@@ -92,7 +92,7 @@ My website is built on Jekyll and I use the <a href="https://github.com/jekyll/j
 
 Google and other search engines use web crawlers to index and rank your website. <b>Robots.txt</b> is a file which contains guidelines on how these crawlers should index your website. You can mention which URLs to crawl and which shouldn't be crawled.
 
-Although both of these dont affect SEO directly, these are really helpful for web crawlers when they run on your website. It is always a good practive to add both of these to your website.
+Although both of these dont affect SEO directly, these are really helpful for web crawlers when they run on your website. It is always a good practive to add both the files to your website.
 
 
 ## Conclusion
