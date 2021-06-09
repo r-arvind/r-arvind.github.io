@@ -53,7 +53,7 @@ Meta description is another extremely important tag. Whenever you search for som
  <figcaption>Example of Meta Description</figcaption>
 </figure>
 
-Always keep the meta description between 90-160 characters long. Google only shows the first 160 characters of your description.
+Always keep the meta description between 90-160 characters long. Google only shows the first 160 characters of your description and cuts out the rest.
 
 
 #### Canonical URL
