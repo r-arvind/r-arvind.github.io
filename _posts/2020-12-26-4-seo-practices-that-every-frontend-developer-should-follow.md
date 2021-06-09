@@ -29,12 +29,6 @@ The header tag `<head></head>` contains all the information about the html page.
 #### Viewport
 
 
-Different people use different browsers, it maybe Firefox, Chrome, Safari or even Internet Explorer. We need to make sure that our style looks the same everywhere. This is where the CSS Reset comes in.
-
-CSS Reset does exactly what it sounds like, it resets the style so that we have **a uniform and a consistent style** across all types of browsers and devices.
-
-The code below shows what a CSS reset might look like. This is just a small subset. There are a lot of other components that require reset, for example tables, captions, textinput etc.
-
 ```css
 /* CSS reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
