@@ -58,7 +58,7 @@ We will be using <a href="https://necolas.github.io/normalize.css/" target="_bla
 
 ## 2. Image Alt Attribute
 
-Image alt tags are extremely important. It looks something like this:
+Always add alt tags to your images. Image alt tags are extremely important. It looks something like this:
 
 ```html
     <img src="someimage.jpg" alt="Image of a flower"> </img>
