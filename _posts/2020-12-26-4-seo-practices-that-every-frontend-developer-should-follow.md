@@ -27,7 +27,6 @@ The header tag `<head></head>` contains all the information about the html page.
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="monetization" content="$ilp.uphold.com/FwjPfwQU6mqK">
 <link rel="icon" href="/assets/images/logo.png">
 
 <!-- <title>Home | Arvind Ram Sankar</title> -->
