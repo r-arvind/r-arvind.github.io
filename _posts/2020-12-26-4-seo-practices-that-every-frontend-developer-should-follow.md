@@ -5,7 +5,7 @@ author: arvind
 categories: [SEO, tutorial]
 tags: [SEO]
 image: assets/images/seo-tips/seo.webp
-bannerimage: assets/images/seo-tips/seo.webp
+# bannerimage: assets/images/seo-tips/seo.webp
 description: "Four basic tips that every frontend developer should follow and put into practice"
 featured: true
 hidden: false
