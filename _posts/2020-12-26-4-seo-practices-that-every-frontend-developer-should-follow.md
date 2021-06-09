@@ -46,12 +46,14 @@ For example, if your website is for a specific brand, make sure your title alway
 
 #### Meta Description
 
-Meta description is another extremely important tag. Whenever you search for something in google, the small description that you see below each link is the Meta description of the website.
+Meta description is another extremely important tag. Whenever you search for something in google, the small description that you see below each link is the Meta description of the website. This is what the users read before clicking on the link.
 
 <figure class="image">
 <img src="{{site.imageurl}}/seo-tips/meta.png" alt="An example of Title tag for SEO" />
  <figcaption>Example of Meta Description</figcaption>
 </figure>
+
+
 
 
 #### Canonical URL
