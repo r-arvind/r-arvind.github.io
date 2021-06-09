@@ -88,10 +88,6 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 ## 4. Sitemaps and Robots.txt
 
 
-A responsive design is one which works well on any device irrespective of the screen size. Obviously, in order to make that happen, you need to write CSS which is responsive. This is what media query helps us with.
-
-
-We will be defining similar breakpoints for different devices and try to make the design more responsive.
 
 
 ## Conclusion
