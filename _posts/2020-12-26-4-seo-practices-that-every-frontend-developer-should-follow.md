@@ -63,7 +63,7 @@ Image alt tags are extremely important. It looks something like this:
 ```html
     <img src="someimage.jpg" alt="Image of a flower"> </img>
 ```
-
+The google web crawlers 
 
 ## 3. `rel` Attribute for Links
 
