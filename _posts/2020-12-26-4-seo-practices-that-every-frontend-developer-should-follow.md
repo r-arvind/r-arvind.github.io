@@ -8,7 +8,7 @@ image: assets/images/seo-tips/seo.png
 bannerimage: assets/images/seo-tips/seo.webp
 description: "Four basic tips that every frontend developer should follow and put into practice to improve SEO of your website"
 featured: true
-hidden: false
+hidden: true
 ---
 
 
