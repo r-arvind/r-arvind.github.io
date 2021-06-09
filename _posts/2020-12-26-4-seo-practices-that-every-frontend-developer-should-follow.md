@@ -24,22 +24,49 @@ In this article, I'll take you through five simple tips, which will greatly impr
 The header tag `<head></head>` contains all the information about the html page. Some of the important tags important for SEO are listed below.
 
 ```html
-/* CSS reset */
-body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
-    margin:0;
-    padding:0;
-}
-html,body {
-    margin:0;
-    padding:0;
-}
-ol,ul {
-    list-style:none;
-}
-h1,h2,h3,h4,h5,h6 {
-    font-size:100%;
-    font-weight:normal;
-}
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="monetization" content="$ilp.uphold.com/FwjPfwQU6mqK">
+<link rel="icon" href="/assets/images/logo.png">
+
+<!-- <title>Home | Arvind Ram Sankar</title> -->
+
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Home | Arvind Ram Sankar</title>
+<meta name="generator" content="Jekyll v4.1.1">
+<meta property="og:title" content="Home">
+<meta property="og:locale" content="en_US">
+<meta name="description" content="You are at Arvind Ram Sankar’s Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.">
+<meta property="og:description" content="You are at Arvind Ram Sankar’s Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.">
+<link rel="canonical" href="https://www.arvindrs.com/">
+<meta property="og:url" content="https://www.arvindrs.com/">
+<meta property="og:site_name" content="Arvind Ram Sankar">
+<link rel="next" href="https://www.arvindrs.com/page2/">
+<meta name="twitter:card" content="summary">
+<meta property="twitter:title" content="Home">
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="application/ld+json">
+{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.arvindrs.com/assets/images/logo.png"}},"description":"You are at Arvind Ram Sankar’s Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.","name":"Arvind Ram Sankar","@type":"WebSite","url":"https://www.arvindrs.com/","headline":"Home","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
+<link rel="stylesheet" href="https://d33wubrfki0l68.cloudfront.net/bundles/dda7a162c5432e7647ef7b3715398b0f4a7d8e9a.css">
+
+
+
+<!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script> -->
+<script src="https://d33wubrfki0l68.cloudfront.net/js/cd55dda95ce4d8e0e0aa1bb9844850da498175be/assets/js/jquery.min.js"></script>
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-162771105-1', 'auto');
+ga('send', 'pageview');
+</script></head>
 ```
 
 #### Meta Title and Meta Description
