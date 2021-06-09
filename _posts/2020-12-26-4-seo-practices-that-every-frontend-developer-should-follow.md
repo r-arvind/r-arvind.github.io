@@ -45,7 +45,7 @@ The header tag `<head></head>` contains all the information about the html page.
 The title tag `<title></title>` is nothing but the title of your website. It is displayed on the browser tab. The title should be relevant to your website and include all the necessary keywords.
 
 <figure class="image">
-<img src="assets/images/seo-tips/title.png" alt="An example of Title tag for SEO"></img>
+<img src="{{site.imageurl}}/seo-tips/title.png" alt="An example of Title tag for SEO"></img>
  <figcaption>Adobe Color Tool</figcaption>
 </figure>
 
