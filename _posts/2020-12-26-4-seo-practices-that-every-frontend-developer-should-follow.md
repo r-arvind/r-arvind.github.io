@@ -90,7 +90,7 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 Sitemaps, just like its name suggests is a map to your site. It is usually located at `/sitemap.xml`. For example, the sitemap for my website is located at <a href="https://www.arvindrs.com/sitemap.xml" target="_blank"> arvindrs.com/sitemap.xml </a>. It contains a list of all the URLs located in my website. 
 Since my website is built using Jekyll, I use the <a href="https://github.com/jekyll/jekyll-sitemap" target="_blank" rel="nofollow noopener">jekyll-sitemap</a> plugin to automatically generate these sitemaps.
 
-Google and other search engines use web crawlers to index and rank your website. <b>Robots.txt</b> is a file which contains guidelines on how these crawlers should index your website. You can mention which URLs to crawl and which shouldn't be crawled. You can checkout my Robots.txt file at <a href="https://arvindrs.com/robots.txt" target="_blank">arvindrs.com/robots.txt</a> It doesn't really have anything because I don't have any restrictions for crawling.
+Google and other search engines use web crawlers to index and rank your website. <b>Robots.txt</b> is a file which contains guidelines on how these crawlers should index your website. You can mention which URLs to crawl and which shouldn't be crawled. You can checkout my Robots.txt file at <a href="https://arvindrs.com/robots.txt" target="_blank">arvindrs.com/robots.txt</a>. It doesn't really have anything because I don't have any restrictions for crawling.
 
 Although both of these don't affect SEO directly, these are really helpful for web crawlers when they run on your website. It is always a good practive to add both the files to your website.
 
