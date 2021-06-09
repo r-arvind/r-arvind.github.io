@@ -48,6 +48,11 @@ For example, if your website is for a specific brand, make sure your title alway
 
 Meta description is another extremely important tag. 
 
+<figure class="image">
+<img src="{{site.imageurl}}/seo-tips/meta.png" alt="An example of Title tag for SEO" />
+ <figcaption>Example of Meta Description</figcaption>
+</figure>
+
 
 #### Canonical URL
 
