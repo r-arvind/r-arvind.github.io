@@ -48,16 +48,6 @@ The header tag `<head></head>` contains all the information about the html page.
 <script async="" src="//www.google-analytics.com/analytics.js"></script><script type="application/ld+json">
 {"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.arvindrs.com/assets/images/logo.png"}},"description":"You are at Arvind Ram Sankar’s Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.","name":"Arvind Ram Sankar","@type":"WebSite","url":"https://www.arvindrs.com/","headline":"Home","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-
-
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    
-<link rel="stylesheet" href="https://d33wubrfki0l68.cloudfront.net/bundles/dda7a162c5432e7647ef7b3715398b0f4a7d8e9a.css">
-
-
-
-<!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script> -->
-<script src="https://d33wubrfki0l68.cloudfront.net/js/cd55dda95ce4d8e0e0aa1bb9844850da498175be/assets/js/jquery.min.js"></script>
 </head>
 ```
 
