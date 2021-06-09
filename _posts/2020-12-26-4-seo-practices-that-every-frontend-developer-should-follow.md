@@ -61,7 +61,7 @@ We will be using <a href="https://necolas.github.io/normalize.css/" target="_bla
 Image alt tags are extremely important. It looks something like this:
 
 ```html
-    <img src="someimage.jpg" alt="Image of a flower"></img>
+    <img src="someimage.jpg" alt="Image of a flower"> </img>
 ```
 
 
