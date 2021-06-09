@@ -91,6 +91,8 @@ Sitemaps, just like it's name suggests is a map to your site. It is usually loca
 My website is built on Jekyll and I use the <a href="https://github.com/jekyll/jekyll-sitemap" target="_blank" rel="nofollow noopener">jekyll-sitemap</a> plugin to automatically generate these sitemaps.
 
 
+
+
 ## Conclusion
 
 If you managed to read till this point, I hope this article gives some insight into what goes into planning a CSS framework. When you finish your planning, you should have an idea about the components that you will be including in your framework and have some clarity on different CSS architectures. 
