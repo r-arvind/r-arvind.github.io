@@ -90,7 +90,7 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 Sitemaps, just like it's name suggests is a map to your site. It is usually located at `/sitemap.xml`. For example, the sitemap for my website is located at <a href="https://www.arvindrs.com/sitemap.xml" target="_blank"> arvindrs.com/sitemap.xml </a>. It contains a list of all the URLs located in my website. 
 My website is built on Jekyll and I use the <a href="https://github.com/jekyll/jekyll-sitemap" target="_blank" rel="nofollow noopener">jekyll-sitemap</a> plugin to automatically generate these sitemaps.
 
-Robots.txt is another file which contains guidelines for 
+Google and other search engines use web crawlers to 
 
 
 ## Conclusion
