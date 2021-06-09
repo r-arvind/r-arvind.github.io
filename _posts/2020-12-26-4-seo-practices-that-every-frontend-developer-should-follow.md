@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "4 SEO Practices every Frontend Developer should Follow"
+title:  "Four SEO Practices every Frontend Developer should Follow"
 author: arvind
 categories: [SEO, tutorial]
 tags: [SEO]
