@@ -12,7 +12,7 @@ hidden: false
 ---
 
 
-You might be using HTML and vanilla javascript or fancy frameworks like react and vue, but in order to make sure that people see it, it needs to show up on google search.
+SEO is critical to any website. You might be using HTML and vanilla javascript or fancy frameworks like react and vue, but in order to make sure that people see it, it needs to show up on google search.
 
 A recent study shows that more than 70% of the people prefer changing their search query rather than going to the second page of google. Therefore, we have to make sure that our website shows up on the first page of google.
 
