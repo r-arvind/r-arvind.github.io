@@ -55,13 +55,15 @@ Meta description is another extremely important tag. Whenever you search for som
 
 Always keep the meta description between 90-160 characters long. Google only shows the first 160 characters of your description and cuts out the rest.
 
+A good meta description should have all the relevant keywords that will make the users click on the link as soon as they read it.
+
 
 #### Canonical URL
 
+Let's take a simple example to understand this tag. Let's say you write an amazing blog post. You post it on your website. Then you post on Medium, Blogger and some of the other blogging platforms. Now, there are multiple copies of the same content existing on different websites.
 
+You don't want the google bot to think that one website has copied from the other or vice versa. And you also don't want the same content to compete against each other for top ranking on search results page.  Therefore, if you put the `<link rel="canonical" href="https://example.com">`, the google search engine will know that they are the same content existing in two different places. The `href` provided in the tag is considered to be the master copy. And you need to put the canonical tag in all the other websites where you've duplicated the content.
 
-
-We will be using <a href="https://necolas.github.io/normalize.css/" target="_blank" rel="nofollow">**Normalize CSS**</a>, which a really small and an amazing reset. You can checkout the code for Normalize <a href="https://github.com/necolas/normalize.css/blob/master/normalize.css" target="_blank" rel="nofollow">here</a>. It is well documented and you'll be able to clearly see what components are being reset to what values.
 
 ## 2. Image Alt Attribute
 
@@ -96,16 +98,6 @@ Now, although both of these files don't affect SEO directly, these are really he
 
 ## Conclusion
 
-If you managed to read till this point, I hope this article gives some insight into what goes into planning a CSS framework. When you finish your planning, you should have an idea about the components that you will be including in your framework and have some clarity on different CSS architectures. 
+In this article, we saw four basic ways to perform search engine optimization as a front-end engineer. We should always follow these good practices to make sure that our content has a good ranking.
 
-In the next article, we will talk about some basic design guidlines after which we will start coding the framework in SASS.
-
-## Further Links
-
-This is the second article out of a series of article I am going to write. I hope this gave you more insight into how to plan out your framework.
-
-This is still a work in progress. I will be finishing up these articles soon so that you can get started building your own framework.
-
-<a href="javascript:void(0)">How to make your own CSS Framework - Designing</a> (Coming on 14th December)
-
-<a href="javascript:void(0)">How to make your own CSS Framework - Coding/Documenting</a> (Coming on 16th December)
+But remember, <b>these four points are barely the tip of the iceberg</b>. There are so many things that you need to take care of when performing search engine optimization. There are social media tags, open graph tags, h1 tags and so much more. So, keep exploring!
