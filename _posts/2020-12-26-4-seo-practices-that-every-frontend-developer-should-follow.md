@@ -23,12 +23,6 @@ In this article, I'll take you through five simple tips, which will greatly impr
 
 The header tag `<head></head>` contains all the information about the html page. Some of the important tags important for SEO are listed below.
 
-#### Meta Title and Meta Description
-#### Canonical URL
-#### Title
-#### Viewport
-
-
 ```css
 /* CSS reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
@@ -47,6 +41,14 @@ h1,h2,h3,h4,h5,h6 {
     font-weight:normal;
 }
 ```
+
+#### Meta Title and Meta Description
+#### Canonical URL
+#### Title
+#### Viewport
+
+
+
 
 We will be using <a href="https://necolas.github.io/normalize.css/" target="_blank" rel="nofollow">**Normalize CSS**</a>, which a really small and an amazing reset. You can checkout the code for Normalize <a href="https://github.com/necolas/normalize.css/blob/master/normalize.css" target="_blank" rel="nofollow">here</a>. It is well documented and you'll be able to clearly see what components are being reset to what values.
 
