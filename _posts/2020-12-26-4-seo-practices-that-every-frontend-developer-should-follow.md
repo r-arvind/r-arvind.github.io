@@ -58,15 +58,7 @@ The header tag `<head></head>` contains all the information about the html page.
 
 <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script> -->
 <script src="https://d33wubrfki0l68.cloudfront.net/js/cd55dda95ce4d8e0e0aa1bb9844850da498175be/assets/js/jquery.min.js"></script>
-
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-162771105-1', 'auto');
-ga('send', 'pageview');
-</script></head>
+</head>
 ```
 
 #### Meta Title and Meta Description
