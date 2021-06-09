@@ -58,7 +58,11 @@ We will be using <a href="https://necolas.github.io/normalize.css/" target="_bla
 
 ## 2. Image Alt Attribute
 
-We will be using <a href="https://necolas.github.io/normalize.css/" target="_blank" rel="nofollow">**Normalize CSS**</a>, which a really small and an amazing reset. You can checkout the code for Normalize <a href="https://github.com/necolas/normalize.css/blob/master/normalize.css" target="_blank" rel="nofollow">here</a>. It is well documented and you'll be able to clearly see what components are being reset to what values.
+Image alt tags are extremely important. It looks something like this:
+
+```html
+    <img src="https://www.">
+```
 
 
 ## 3. `rel` Attribute for Links
