@@ -40,10 +40,12 @@ The header tag `<head></head>` contains all the information about the html page.
 </head>
 ```
 
+#### Title
+
+The title tag `<title></title>` is basically the title of your website. It shows up on the browser tab 
+
 #### Meta Title and Meta Description
 #### Canonical URL
-#### Title
-#### Viewport
 
 
 
