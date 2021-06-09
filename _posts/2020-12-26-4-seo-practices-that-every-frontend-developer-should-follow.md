@@ -44,7 +44,7 @@ The header tag `<head></head>` contains all the information about the html page.
 
 The title tag `<title></title>` is nothing but the title of your website. It is displayed on the browser tab. The title should be relevant to your website and include all the necessary keywords.
 
-
+<img>
 
 For example, if your website is for a specific brand, make sure your title always has the brand name. The home page should be <b>"Home \| Brand"</b>, the about page should be <b>"About Us \| Brand"</b> and so on.
 
