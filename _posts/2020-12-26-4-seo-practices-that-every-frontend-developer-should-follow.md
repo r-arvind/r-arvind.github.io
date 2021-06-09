@@ -73,7 +73,7 @@ The google bots which crawl your websites cannot see what the image is about. In
 <a href="https://google.com" rel="nofollow noopener"> Link </a>
 ```
 
-`rel="nofollow"` is essentially like a SEO blocker. If you see a website that has links to your website but has the `rel="nofollow"` attribute, that means it doesn't contribute to your SEO. 
+`rel="nofollow"` is essentially like a SEO blocker. If you see a website that has links to your website but has the `rel="nofollow"` attribute, that means it doesn't contribute to your SEO. Similarly putting it on your website won't pass on SEO juice to the linked websites
 
 ## 4. Sitemaps and Robots.txt
 
