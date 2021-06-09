@@ -38,7 +38,7 @@ The header tag `<head></head>` contains all the information about the html page.
 <meta property="og:title" content="Home">
 <meta property="og:locale" content="en_US">
 <meta name="description" content="Description of your website">
-<meta property="og:description" content="You are at Arvind Ram Sankar’s Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.">
+<meta property="og:description" content="Description of your website">
 <link rel="canonical" href="https://www.arvindrs.com/">
 <meta property="og:url" content="https://www.arvindrs.com/">
 <meta property="og:site_name" content="Arvind Ram Sankar">
