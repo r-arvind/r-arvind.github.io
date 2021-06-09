@@ -23,7 +23,7 @@ In this article, I'll take you through five simple tips, which will greatly impr
 
 The header tag `<head></head>` contains all the information about the html page. Some of the important tags important for SEO are listed below.
 
-```css
+```html
 /* CSS reset */
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
     margin:0;
