@@ -73,9 +73,6 @@ The google bots which crawl your websites cannot see what the image is about. In
 <a href="https://google.com" rel="nofollow noopener"> Link </a>
 ```
 
-The above code sets the body background color as blue when the screen size is below 600px and sets it to green when the screen size is above 600px. 
-Using media query, we can write CSS that looks perfect on all devices starting from desktops to smartphones. We will be setting **breakpoints** to distinguish different screen sizes and use different CSS for different breakpoints.
-
 
 ## 4. Sitemaps and Robots.txt
 
