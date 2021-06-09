@@ -21,7 +21,7 @@ In this article, I'll take you through five simple tips, which will greatly impr
 
 ## 1. Header Tag
 
-The header tag `<head>..</head>` contains all the information about the html page. Some of the important tags important for SEO are listed below.
+The header tag `<head></head>` contains all the information about the html page. Some of the important tags important for SEO are listed below.
 
 #### Meta Title and Meta Description
 #### Canonical URL
