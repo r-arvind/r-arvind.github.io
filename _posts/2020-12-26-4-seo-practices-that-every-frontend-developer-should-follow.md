@@ -72,17 +72,8 @@ A responsive design is one which works well on any device irrespective of the sc
 
 Media query allows you to write different CSS for different screen sizes.
 
-```css
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: blue;
-  }
-}
-@media only screen and (min-width: 600px) {
-  body {
-    background-color: green;
-  }
-}
+```html
+>a href="
 ```
 
 The above code sets the body background color as blue when the screen size is below 600px and sets it to green when the screen size is above 600px. 
