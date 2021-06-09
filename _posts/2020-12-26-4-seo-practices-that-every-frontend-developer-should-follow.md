@@ -63,7 +63,7 @@ Image alt tags are extremely important. It looks something like this:
 ```html
     <img src="someimage.jpg" alt="Image of a flower"> </img>
 ```
-The google bots which crawl your websites cannot see the image. They instead use the alt tag to understand what the image is about
+The google bots which crawl your websites cannot see what the image is about. Instead, they use the alt tag to understand what the image is about
 
 ## 3. `rel` Attribute for Links
 
