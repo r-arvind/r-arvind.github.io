@@ -45,9 +45,6 @@ The header tag `<head></head>` contains all the information about the html page.
 <link rel="next" href="https://www.arvindrs.com/page2/">
 <meta name="twitter:card" content="summary">
 <meta property="twitter:title" content="Home">
-<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="application/ld+json">
-{"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"https://www.arvindrs.com/assets/images/logo.png"}},"description":"You are at Arvind Ram Sankar’s Personal Website. I like to talk about programming, hardware and all the other cool tech stuff.","name":"Arvind Ram Sankar","@type":"WebSite","url":"https://www.arvindrs.com/","headline":"Home","@context":"https://schema.org"}</script>
-<!-- End Jekyll SEO tag -->
 </head>
 ```
 
