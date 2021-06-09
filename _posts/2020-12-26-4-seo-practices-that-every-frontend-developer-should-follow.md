@@ -38,8 +38,8 @@ The header tag `<head></head>` contains all the information about the html page.
 <meta property="og:locale" content="en_US">
 <meta name="description" content="Description of your website">
 <meta property="og:description" content="Description of your website">
-<link rel="canonical" href="https://www.arvindrs.com/">
-<meta property="og:url" content="https://www.arvindrs.com/">
+<link rel="canonical" href="https://www.example.com/">
+<meta property="og:url" content="https://www.example.com/">
 <meta property="og:site_name" content="Arvind Ram Sankar">
 <link rel="next" href="https://www.arvindrs.com/page2/">
 <meta name="twitter:card" content="summary">
