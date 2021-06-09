@@ -67,7 +67,7 @@ The google bots which crawl your websites cannot see what the image is about. In
 
 ## 3. `rel` Attribute for Links
 
-<b><i>SEO is all about links.<i></b> In order to have a higher ranking, you need links from various websites and adding links to your website provides 
+<b><i>SEO is all about links.</i></b> In order to have a higher ranking, you need links from various websites and adding links to your website provides 
 
 ```html
 <a href="https://google.com" rel="nofollow noopener"> Link </a>
