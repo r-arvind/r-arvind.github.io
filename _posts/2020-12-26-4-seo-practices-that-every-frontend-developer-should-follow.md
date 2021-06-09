@@ -87,7 +87,7 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 
 ## 4. Sitemaps and Robots.txt
 
-Sitemaps, just like it's name suggests is a map to your site. It 
+Sitemaps, just like it's name suggests is a map to your site. It is usually located at https://
 
 
 ## Conclusion
