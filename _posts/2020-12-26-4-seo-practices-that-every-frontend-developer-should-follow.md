@@ -46,6 +46,7 @@ For example, if your website is for a specific brand, make sure your title alway
 
 #### Meta Description
 
+Meta descriptio is another extremely important tag. 
 
 
 #### Canonical URL
