@@ -28,8 +28,6 @@ The header tag `<head></head>` contains all the information about the html page.
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Home | Arvind Ram Sankar</title>
-<meta property="og:title" content="Home">
-<meta property="og:locale" content="en_US">
 <meta name="description" content="Description of your website">
 <link rel="canonical" href="https://www.example.com/">
 </head>
