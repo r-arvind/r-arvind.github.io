@@ -87,7 +87,7 @@ Using media query, we can write CSS that looks perfect on all devices starting f
 
 ## 4. Sitemaps and Robots.txt
 
-Sitemaps, just like it's name suggests is a map to your site. It is usually located at `/sitemap.xml`. For example, the sitemap for my website is located at https://www.arvindrs.com/sitemap.xml
+Sitemaps, just like it's name suggests is a map to your site. It is usually located at `/sitemap.xml`. For example, the sitemap for my website is located at <a href="https://www.arvindrs.com/sitemap.xml" target="_blank">https://www.arvindrs.com/sitemap.xml</a>
 
 
 ## Conclusion
