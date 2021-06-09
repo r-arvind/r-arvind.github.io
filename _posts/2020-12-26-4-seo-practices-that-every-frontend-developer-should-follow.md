@@ -67,10 +67,7 @@ The google bots which crawl your websites cannot see what the image is about. In
 
 ## 3. `rel` Attribute for Links
 
-
-A responsive design is one which works well on any device irrespective of the screen size. Obviously, in order to make that happen, you need to write CSS which is responsive. This is what media query helps us with.
-
-Media query allows you to write different CSS for different screen sizes.
+SEO is all about links. 
 
 ```html
 <a href="https://google.com" rel="nofollow noopener"> Link </a>
