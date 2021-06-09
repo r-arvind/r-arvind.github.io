@@ -34,7 +34,6 @@ The header tag `<head></head>` contains all the information about the html page.
 
 <!-- Begin Jekyll SEO tag v2.7.1 -->
 <title>Home | Arvind Ram Sankar</title>
-<meta name="generator" content="Jekyll v4.1.1">
 <meta property="og:title" content="Home">
 <meta property="og:locale" content="en_US">
 <meta name="description" content="Description of your website">
