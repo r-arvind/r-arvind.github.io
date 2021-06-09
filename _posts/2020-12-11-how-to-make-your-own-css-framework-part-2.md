@@ -7,8 +7,8 @@ tags: [CSS]
 image: assets/images/makecss/css2.png
 bannerimage: assets/images/makecss/css2.png
 description: "This article talks about various CSS architectures like SMACSS, OOCSS and Atomic CSS which are needed for building your own CSS Framework"
-featured: true
-hidden: true
+featured: false
+hidden: false
 ---
 
 
