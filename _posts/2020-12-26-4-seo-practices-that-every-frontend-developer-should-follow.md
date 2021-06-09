@@ -23,10 +23,10 @@ In this article, I'll take you through five simple tips, which will greatly impr
 
 The header tag `<head>..</head>` contains all the information about the html page. Some of the important tags important for SEO are listed below.
 
-### Meta Title and Meta Description
-### Canonical URL
-### Title
-### Viewport
+#### Meta Title and Meta Description
+#### Canonical URL
+#### Title
+#### Viewport
 
 
 Different people use different browsers, it maybe Firefox, Chrome, Safari or even Internet Explorer. We need to make sure that our style looks the same everywhere. This is where the CSS Reset comes in.
