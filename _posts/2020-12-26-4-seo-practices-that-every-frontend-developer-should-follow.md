@@ -46,7 +46,7 @@ The title tag `<title></title>` is nothing but the title of your website. It is 
 
 <figure class="image">
 <img src="{{site.imageurl}}/seo-tips/title.png" alt="An example of Title tag for SEO"></img>
- <figcaption>Adobe Color Tool</figcaption>
+ <figcaption>Example of Title Tag</figcaption>
 </figure>
 
 For example, if your website is for a specific brand, make sure your title always has the brand name. The home page should be <b>"Home \| Brand"</b>, the about page should be <b>"About Us \| Brand"</b> and so on.
