@@ -4,7 +4,7 @@ title:  "Four SEO Practices every Frontend Developer should Follow"
 author: arvind
 categories: [SEO, tutorial]
 tags: [SEO]
-image: assets/images/seo-tips/seo-for-developers.png
+image: assets/images/seo-tips/seo-new.png
 # bannerimage: assets/images/seo-tips/seo.webp
 description: "Four basic tips that every frontend developer should follow and put into practice"
 featured: true
