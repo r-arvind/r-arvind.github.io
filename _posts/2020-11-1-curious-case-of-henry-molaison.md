@@ -135,7 +135,7 @@ The study of Molaison revolutionized the understanding of the organization of hu
 * The brain circuit responsible for odour detection (this bottle contains an odour) and odour intensity discrimination (this odour is stronger) is separate from the circuit that supports odor discrimination (this smells like cloves). Henry could not do latter. We now know that odor discrimination takes place in the front part of the parahippocampal gyrus, the amygdala, and the cortex around the amygdale.
 
 
-# Further Studies
+## Further Studies
 
 
 Henry laid the foundation for all the future studies and he was the only patient who was lobotomized. Lobotomy was later banned in the 1970s due to it being "contrary to the principles of humanity". 
