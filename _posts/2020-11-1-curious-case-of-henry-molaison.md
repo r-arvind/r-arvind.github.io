@@ -110,7 +110,7 @@ A brief summary of his condition is as follows:
 5. His IQ was above average
 6. His language, reasoning, and perceptual capacities were normal.
 
-The study of Molaison revolutionized the understanding of the organization of human memory. It has provided broad evidence for the rejection of old theories and the formation of new theories on human memory, in particular about its processes and the underlying neural structures. Some of the breakthrough discoveries$^{[8]$^}$ from his study are as follows:
+The study of Molaison revolutionized the understanding of the organization of human memory. It has provided broad evidence for the rejection of old theories and the formation of new theories on human memory, in particular about its processes and the underlying neural structures. Some of the breakthrough discoveries from his study are as follows:
 
 * Partition of memory into short-term and long-term memory processes, each part being mediated by a specialized memory circuit. It became evident from a series of cognitive tests that short-term memory is the immediate present. Its capacity is limited and fades immediately unless (a) We rehearse it or (b) convert it into a form that can be retained in long-term memory. Henry was able to use rehearsal but unable to convert short-term memories into long-term memories
 
