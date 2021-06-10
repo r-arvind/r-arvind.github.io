@@ -40,7 +40,7 @@ The knowledge about our brain, mental health and other mental illnesses was not 
 
 We mostly hear about mental asyulms in horror movies, but this was the harsh reality back then. It was a crazy period and there wasn't much knowledge or awareness about mental health. Then came another revolution in neurosurgery, the Lobotomy. 
 
-# Lobotomy
+## Lobotomy
 
 This medical procedure was developed by doctors in Europe. The motto behind lobotomy was that if a certain part of the brain causes problem, just cut it out and everything will be fine. It was thought that cutting certain nerves in brain can fix the excess emotion and stabilize the person. A hole was drilled into the patient's head from their eyeball socket and and they used to sever brain connections by using knives or by pouring ethanol. 
  
@@ -60,7 +60,7 @@ Lobotomy was hailed as an innovation, an instant cure for mental patients. There
 Did these procedures work? No, definitely not. There were very slim chances of surviving such a procedure. The success rate was less than 50% and even amongst those who survived, the lobotomy had negative effects on a patient's personality, initiative, inhibitions, empathy and ability to function on their own. Those who survived were left as nothing more than empty shells unable to do anything.
 
 
-# Henry Molaison
+## Henry Molaison
 
 Henry Molaison, popularly known in the world of neuroscience as Patient HM is the foundation for all the knowledge we have about brain. Most of the knowledge that we have about our brain can be traced back to this person.
 
@@ -93,7 +93,7 @@ When Scoville realized his patient had become amnesic, he referred him to the em
 
 For **55 years**, Henry participated in numerous experiments, primarily at **Massachusetts Institute of Technology** (MIT), where Professor Suzanne Corkin and her team of neuropsychologists assessed him. He died in December 2008 at the age of 82.
 
-# The Research on Molaison
+## The Research on Molaison
 
 Henry's memory loss was far from simple. Firstly, he was **unable to make any new memories** after his operation. He also had **moderate retrograde amnesia** i.e he could not remember most events in the 1-2 year period prior to his surgery. In some cases, he couldn't remember events upto 11 years before the time of surgery. He could remember some things — scenes from his childhood, some facts about his parents, and historical events that occurred before his surgery — but he was unable to form new memories. If he met someone who then left the room, within minutes he had no recollection of the person or their meeting. He was perpetually "trapped in the moment," **unable to recall anything beyond 30 seconds**. 
 
