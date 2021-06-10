@@ -147,7 +147,7 @@ We have also managed to build mechanical systems using deep learning that are ab
 
 
 
-# References
+## References
 
 1. *Barbara Dury*, Lobotomy: A Dangerous Fad's Lingering effect on Mental Illness Treatment <br />
 https://www.retroreport.org/video/first-do-no-harm/
