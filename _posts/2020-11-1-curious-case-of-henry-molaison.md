@@ -22,7 +22,7 @@ In the 21st century, one of the most well established theory about our brain is 
 
 The story behind its discovery is very interesting. It all began from a person famously known as Patient HM in the world of neurosciencec. In order to completely understand the story, we need to travel back in time, back to America in the 1950s where our story takes place.
 
-# The 20th century
+## The 20th century
 
 After the world war, there was rapid development in science and technology. But there was one area that was rather crude and not much developed and that is Neuroscience.
 
